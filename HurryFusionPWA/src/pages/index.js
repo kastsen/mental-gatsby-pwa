@@ -8,6 +8,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+      <div className="row">
+          <div className="col-lg-6">
+              <div className="box">Responsive</div>
+          </div>
+          <div className="col-lg-6">
+              <div className="box">Responsive</div>
+          </div>
+      </div>
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
