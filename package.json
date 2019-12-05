@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "flexboxgrid": "^6.3.1",
+    "gatsby-plugin-purgecss": "^4.0.1",
     "gatsby-plugin-sass": "^2.1.24"
   }
 }
