@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `HurryFusion`,
     description: `Progressive technologies for business.`,
-    author: `@gatsbyjs`,
+    author: `@kastsen`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
