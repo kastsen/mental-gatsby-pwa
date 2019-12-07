@@ -2,6 +2,7 @@
 
 * {
   font-family: $fontFamily;
+  transition: .2s;
 }
 
 $linkHover: #0FD0AE;
@@ -49,7 +50,7 @@ header {
   color: white;
   cursor: pointer;
   &:hover {
-    background: $linkHover;
-    border-color: $linkHover;
+    background: #0DBA9D;
+
   }
 }

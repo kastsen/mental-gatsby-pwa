@@ -1,4 +1,12 @@
+.bgBlack {
+  background: #020415;
+}
+
 .features {
+  color: white;
+  img {
+    filter: invert(100%);
+  }
   h2 {
     width: 100%;
     margin-bottom: 90px;
