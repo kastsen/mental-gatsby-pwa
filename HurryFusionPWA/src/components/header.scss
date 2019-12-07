@@ -4,19 +4,30 @@
   font-family: $fontFamily;
 }
 
+$linkHover: #FC4E64;
+
 header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
   a {
     text-decoration: none;
-    color: $black;
+    color: white;
+    &:hover {
+      color: $linkHover;
+    }
   }
   .logo {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 23px;
   }
   nav {
-  ul {
-    margin: auto;
-  }
+    ul {
+      width: 100%;
+      margin: auto;
+    }
     li {
       list-style: none;
       display: inline-block;
@@ -30,12 +41,16 @@ header {
 }
 
 .join-btn {
-  background: #00C083;
-  border: none;
+  background: none;
+  border: 2px solid #722E72;
   box-shadow: none;
-  padding: 10px 30px;
+  padding: 10px 35px;
   outline: none;
   border-radius: 50px;
   color: white;
   cursor: pointer;
+  &:hover {
+    background: $linkHover;
+    border-color: $linkHover;
+  }
 }

@@ -1,6 +1,6 @@
 .topSection {
-  background: #00124A;
-  min-height: calc(100vh - 75px);
+  background: linear-gradient(to right, #1C34B8 ,#09157F);;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,7 @@
   justify-content: center;
   text-align: center;
   position: relative;
-  padding: 90px 30px;
+  padding: 190px 30px;
   box-sizing: border-box;
   h1 {
     font-size: 70px;
