@@ -8,14 +8,12 @@ import Nav from "./nav"
 
 const Header = ({ siteTitle }) => (
     <header>
-        <div
+        <div className='container'
             style={{
-                margin: `0 auto`,
-                maxWidth: 1180,
-                padding: `1rem 1.0875rem`,
                 display: `flex`,
                 justifyContent: `space-between`,
-                alignItems: `center`
+                alignItems: `center`,
+                padding: `20px 0`
             }}
         >
             <div className='logo'>

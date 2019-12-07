@@ -4,14 +4,13 @@
   font-family: $fontFamily;
 }
 
-$linkHover: #FC4E64;
+$linkHover: #0FD0AE;
 
 header {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
   font-weight: 500;
   font-size: 16px;
+  position: relative;
+  z-index: 2;
   a {
     text-decoration: none;
     color: white;
@@ -41,8 +40,8 @@ header {
 }
 
 .join-btn {
-  background: none;
-  border: 2px solid #722E72;
+  background: #0FD0AE;
+  border: none;
   box-shadow: none;
   padding: 10px 35px;
   outline: none;

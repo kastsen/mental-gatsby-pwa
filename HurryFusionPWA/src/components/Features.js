@@ -49,6 +49,13 @@ const Features = () =>
         <div className="container">
             <div className="content">
                 <div className="row">
+                    <h2 className='text-center'>
+                        {/*We provide custom*/}
+                        {/*software development services*/}
+                        Perfect for every kind of business
+                    </h2>
+                </div>
+                <div className="row">
                         {featuresItems}
                 </div>
             </div>
