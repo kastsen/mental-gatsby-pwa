@@ -31,7 +31,7 @@ const featuresData = [
 const featuresItems = featuresData.map((feature) => {
 
         return (
-            <div className="col-lg-4" key={feature.id}>
+            <div className="col-xs-12 col-lg-4" key={feature.id}>
                 <div className="box">
                     <img src={feature.img} alt={feature.name} className='feature-icon'/>
                     <h3>{feature.name}</h3>
