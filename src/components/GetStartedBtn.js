@@ -2,6 +2,11 @@ import React from "react"
 import { Link } from 'gatsby'
 import './getStartedBtn.scss'
 
+const hideScroll = () => {
+  const page = document.querySelector('html')
+  page.style.overflow = 'hidden';
+}
+
 const GetStartedBtn = () => (
   <Link
     to="/requestForm/"
@@ -10,7 +15,7 @@ const GetStartedBtn = () => (
       noScroll: true
     }}
   >
-    <button className='join-btn'>
+    <button className='join-btn' onClick={hideScroll}>
       Get Started
     </button>
   </Link>
