@@ -1,11 +1,8 @@
-.bgBlack {
-  //background: #020415;
-}
-
 .features {
   h2 {
     width: 100%;
     margin-bottom: 70px;
+    line-height: 142%;
   }
   p {
     max-width: 270px;
@@ -26,11 +23,13 @@
       img {
         float: left;
         margin-right: 30px;
+        max-width: 80px;
+        margin-top: 10px;
       }
       .col-lg-4 {
         max-width: 100%;
         width: 400px;
-        margin: 0 auto 30px;
+        margin: 0 auto 50px;
         &:last-of-type {
           margin-bottom: 0;
         }

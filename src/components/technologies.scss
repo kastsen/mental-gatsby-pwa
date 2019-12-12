@@ -6,11 +6,17 @@
 
 .technologies {
   img {
-    width: 75px;
+    width: 86px;
     filter: grayscale(90%);
   }
   .row {
     justify-content: space-between;
+  }
+  h2 {
+    margin-bottom: 35px;
+    @media (max-width: 620px) {
+      text-align: center;
+    }
   }
   h3 {
     font-size: 18px;

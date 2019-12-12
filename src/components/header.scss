@@ -27,6 +27,11 @@ header {
       color: $linkHover;
     }
   }
+  @media (max-width: $hideNavWidth) {
+    .join-btn {
+      display: none;
+    }
+  }
 }
 
 .logo {
@@ -34,6 +39,7 @@ header {
   font-size: 23px;
   position: relative;
   padding-left: 40px;
+  animation: fadein .5s;
   &:before {
     position: absolute;
     content: '';
@@ -49,23 +55,3 @@ header {
     transition: $transition;
   }
 }
-
-[aria-hidden="true"] {
-  header {
-    position: static;
-    .container {
-      position: static;
-    }
-  }
-  .logo {
-    z-index: 10;
-    position: fixed;
-    a {
-      color: $black;
-    }
-    &:before {
-      background-image: url("../images/logo-black.svg");
-    }
-  }
-}
-
