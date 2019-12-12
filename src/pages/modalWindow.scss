@@ -1,10 +1,13 @@
+@import "../scss/variables";
+@import "../scss/animation";
+
 .ReactModal__Overlay {
   z-index: 5;
   background-color: white !important;
 }
 .ReactModal__Content {
   border: 0 !important;
-  background: #F2F5F9 url("../images/womenOrig.webp") top left no-repeat !important;
+  background: #F2F5F9 url("../images/women.jpg") top left no-repeat !important;
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -13,6 +16,7 @@
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
+  animation: fadein 1s;
 }
 
 .requestForm {
@@ -67,6 +71,27 @@
     &:hover {
       background: #16B18F;
       box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+    }
+  }
+}
+
+[aria-hidden="true"] {
+  header {
+    position: static;
+    .container {
+      position: static;
+    }
+  }
+  .logo {
+    z-index: 10;
+    position: fixed;
+    a {
+      color: $black;
+      animation: fadein 1s;
+    }
+    &:before {
+      background-image: url("../images/logo-black.svg");
+      animation: fadein 1s;
     }
   }
 }

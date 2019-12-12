@@ -1,8 +1,8 @@
 import React from 'react';
 
-import conceptIcon from './../images/target.svg';
-import developmentIcon from './../images/maintenance.svg';
-import transformationIcon from './../images/startup.svg';
+import conceptIcon from './../images/astronaut.svg';
+import developmentIcon from './../images/rocket-ship.svg';
+import transformationIcon from './../images/solar-system.svg';
 
 import './features.scss'
 import SectionLayout from "./sectionLayout";

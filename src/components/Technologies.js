@@ -54,7 +54,7 @@ const createItems = (data) => {
 const Technologies = () =>
   <SectionLayout name="technologies bgGray">
     <h2 id='technologies'>
-      Technologies
+     Technology Stack
     </h2>
     <div className="row text-center">
       {createItems(featuresData)}

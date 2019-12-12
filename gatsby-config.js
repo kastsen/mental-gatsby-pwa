@@ -18,11 +18,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `HurryFusion PWA`,
+        name: `HurryFusion`,
         short_name: `HurryFusion`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#020111`,
+        theme_color: `#020111`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
@@ -49,9 +49,10 @@ module.exports = {
         // Set Variation ID. 0 for original 1,2,3....
         // variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
         // Any additional optional fields
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "example.com",
+
+        // sampleRate: 5,
+        // siteSpeedSampleRate: 10,
+        // cookieDomain: "example.com",
       },
     },
     `gatsby-plugin-sass`,

@@ -1,7 +1,7 @@
 @import "./../scss/variables";
 
 .topSection {
-  background: url("../images/bg.webp") top left no-repeat;
+  background: url("../images/bg.png") top left no-repeat;
   background-size: cover;
   height: 700px;
   display: flex;
@@ -40,8 +40,11 @@
   }
   h1 {
     font-size: 55px;
-    line-height: 146%;
+    line-height: 142%;
     font-weight: 600;
+    @media (max-width: 420px) {
+      font-size: 42px;
+    }
   }
   p {
     font-size: 20px;
