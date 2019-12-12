@@ -1,0 +1,22 @@
+@import "./../scss/_variables.scss";
+
+nav {
+  flex: 1;
+  text-align: right;
+  @media (max-width: $hideNavWidth) {
+    display: none !important;
+  }
+  ul {
+    width: 100%;
+    margin: auto;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+    margin: auto;
+    a {
+      text-decoration: none;
+    }
+  }
+}

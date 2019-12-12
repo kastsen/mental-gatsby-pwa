@@ -1,0 +1,71 @@
+@import "./../scss/_variables.scss";
+
+* {
+  font-family: $fontFamily;
+  transition: $transition;
+}
+
+$linkHover: #0FD0AE;
+
+header {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  .container {
+    @media (max-width: $hideNavWidth) {
+      justify-content: space-between;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: $linkHover;
+    }
+  }
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  &:before {
+    position: absolute;
+    content: '';
+    background: url("../images/logo.svg") center center no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    left: 0;
+    transition: $transition;
+  }
+  &:hover:before {
+    background-image: url("../images/logo-green.svg");
+    transition: $transition;
+  }
+}
+
+[aria-hidden="true"] {
+  header {
+    position: static;
+    .container {
+      position: static;
+    }
+  }
+  .logo {
+    z-index: 10;
+    position: fixed;
+    a {
+      color: $black;
+    }
+    &:before {
+      background-image: url("../images/logo-black.svg");
+    }
+  }
+}
+

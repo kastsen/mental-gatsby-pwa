@@ -1,0 +1,29 @@
+@import "./../scss/variables";
+
+footer {
+  background: $footerBG;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  z-index: 2;
+  font-size: 14px;
+  ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+  }
+  li {
+    padding: 0 15px;
+    margin-bottom: auto;
+  }
+  a {
+    color: rgba(255, 255, 255, 0.8);
+    &:hover {
+      color: $linkHoverColor;
+    }
+  }
+}

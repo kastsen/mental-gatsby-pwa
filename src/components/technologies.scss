@@ -1,0 +1,45 @@
+@import "./../scss/variables.scss";
+
+*:hover {
+  transition: $transition;
+}
+
+.technologies {
+  img {
+    width: 75px;
+    filter: grayscale(90%);
+  }
+  .row {
+    justify-content: space-between;
+  }
+  h3 {
+    font-size: 18px;
+    padding-left: 10px;
+    @media (max-width: 1000px) {
+      display: none;
+    }
+    &:hover {
+      cursor: default;
+    }
+  }
+  .item-flex {
+    display: flex;
+    align-items: center;
+    opacity: .8;
+    &:hover {
+      opacity: 1;
+      h3 {
+        opacity: .8;
+      }
+      img {
+        filter: grayscale(0);
+      }
+    }
+  }
+  .content {
+    padding-bottom: 60px;
+    @media (max-width: $phone-landscape-max-width) {
+      padding-bottom: 40px;
+    }
+  }
+}
