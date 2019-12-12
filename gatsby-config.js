@@ -27,8 +27,6 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-<<<<<<< Updated upstream
-=======
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -51,12 +49,12 @@ module.exports = {
         // Set Variation ID. 0 for original 1,2,3....
         // variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
         // Any additional optional fields
+
         // sampleRate: 5,
         // siteSpeedSampleRate: 10,
         // cookieDomain: "example.com",
       },
     },
->>>>>>> Stashed changes
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-purgecss`,
