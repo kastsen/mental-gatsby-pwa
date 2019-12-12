@@ -42,6 +42,11 @@ progress {
 template {
   display: none;
 }
+
+*:hover {
+  transition: $transition;
+}
+
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -254,7 +259,7 @@ h2 {
   font-weight: 500;
   text-rendering: optimizeLegibility;
   font-size: 2.1rem;
-  line-height: 1.1;
+  line-height: 142%;
 }
 h3 {
   margin-left: 0;
@@ -664,4 +669,8 @@ ul {
 
 .bgGray {
   background: #F4F4F4;
+}
+
+.col-lg-6 {
+  max-width: 50%;
 }

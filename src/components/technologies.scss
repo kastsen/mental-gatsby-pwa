@@ -1,13 +1,8 @@
 @import "./../scss/variables.scss";
 
-*:hover {
-  transition: $transition;
-}
-
 .technologies {
   img {
     width: 86px;
-    filter: grayscale(90%);
   }
   .row {
     justify-content: space-between;
@@ -36,9 +31,6 @@
       opacity: 1;
       h3 {
         opacity: .8;
-      }
-      img {
-        filter: grayscale(0);
       }
     }
   }

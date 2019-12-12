@@ -1,7 +1,7 @@
 @import "./../scss/variables";
 
 .topSection {
-  background: url("../images/bg.png") top left no-repeat;
+  background: url("../images/bg_.jpg") top right no-repeat;
   background-size: cover;
   height: 700px;
   display: flex;
@@ -23,7 +23,7 @@
     position: absolute;
     top: 0;
     content: '';
-    opacity: .99;
+    opacity: .9;
   }
   &:before {
     width: 40%;

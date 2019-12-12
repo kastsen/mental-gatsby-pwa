@@ -3,13 +3,41 @@
 }
 
 .pwaReliable {
+  filter: grayscale(70%);
+  position: relative;
+  background: #2D015A;
+  color: white;
+  overflow: hidden;
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+  }
+  &:before {
+    height: 100%;
+    width: 90%;
+    left: 50%;
+    top: 0;
+    background: linear-gradient(to left, #4C2B75, #2D015A);
+  }
+  &:after {
+    height: 80%;
+    width: 40%;
+    left: 10%;
+    top: 10%;
+    background: url("../images/samji_illustrator.jpeg") center right no-repeat;
+    background-size: contain;
+    opacity: .9;
+  }
   .box {
     padding: 0 60px;
   }
-  img {
-    border-radius: 20px;
+  .row {
+    min-height: 350px;
+    align-items: center;
+    justify-content: flex-end;
   }
-  h2 {
-    margin-bottom: 80px;
+  .col-lg-6 {
+    width: 45%;
   }
 }
