@@ -23,7 +23,7 @@
     position: absolute;
     top: 0;
     content: '';
-    opacity: .9;
+    opacity: .98;
   }
   &:before {
     width: 40%;
@@ -42,12 +42,23 @@
     font-size: 55px;
     line-height: 142%;
     font-weight: 600;
+    @media (max-width: 620px) {
+      span {
+        display: none;
+      }
+    }
     @media (max-width: 420px) {
       font-size: 42px;
     }
   }
   p {
     font-size: 20px;
+    @media (max-width: $phone-portrait-max-width) {
+      max-width: 300px;
+      br {
+        display: none;
+      }
+    }
   }
   .join-btn {
     width: 180px;

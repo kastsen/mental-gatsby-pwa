@@ -13,16 +13,13 @@ const ModalExamplePage = () => (
   <div className="requestForm">
     <ModalRoutingContext.Consumer>
       {({ modal, closeTo }) => (
-        <div className='modalWindow'>
+        <div className='form'>
           {modal ? (
             <Link to={closeTo} className='close' onClick={visibleScroll}>
             </Link>
           ) : (
-            <header>
-              <h1>
-                Website Title
-              </h1>
-            </header>
+            <>
+            </>
           )}
           <h2>Get Started</h2>
           <GetStartedForm/>

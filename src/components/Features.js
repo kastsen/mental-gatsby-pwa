@@ -33,7 +33,7 @@ const featuresData = [
 const Features = () =>
     <SectionLayout name="features text-center bgBlack">
         <h2 id='services'>
-          Why build a Progressive Apps?
+          Why build a Progressive App?
         </h2>
         <div className="row">
             {createItems(featuresData, 'col-lg-4')}

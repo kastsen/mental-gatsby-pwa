@@ -18,7 +18,9 @@
     width: 90%;
     left: 50%;
     top: 0;
-    background: linear-gradient(to left, #4C2B75, #2D015A);
+    @media (min-width: 891px) {
+      background: linear-gradient(to left, #4C2B75, #2D015A);
+    }
   }
   &:after {
     height: 80%;
@@ -28,6 +30,15 @@
     background: url("../images/samji_illustrator.jpeg") center right no-repeat;
     background-size: contain;
     opacity: .9;
+    @media (max-width: 890px) {
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 60px;
+      width: 100%;
+      background-position: top center;
+      height: 300px;
+    }
   }
   .box {
     padding: 0 60px;
@@ -39,5 +50,14 @@
   }
   .col-lg-6 {
     width: 45%;
+    @media (max-width: 890px) {
+      width: 100%;
+      max-width: 100%;
+      margin: 340px auto 0;
+      text-align: center;
+      p {
+        margin-bottom: 15px;
+      }
+    }
   }
 }

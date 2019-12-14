@@ -1,8 +1,14 @@
+@import "../scss/variables";
+
 .features {
   h2 {
     width: 100%;
     margin-bottom: 70px;
     line-height: 142%;
+    @media (max-width: $phone-landscape-max-width) {
+      max-width: 320px;
+      margin: 0 auto 50px;
+    }
   }
   p {
     max-width: 270px;
@@ -20,10 +26,10 @@
       p {
         max-width: 100%;
       }
-      img {
+      .feature-icon {
         float: left;
         margin-right: 30px;
-        max-width: 80px;
+        max-width: 65px;
         margin-top: 10px;
       }
       .col-lg-4 {
@@ -31,13 +37,13 @@
         width: 400px;
         margin: 0 auto 50px;
         &:last-of-type {
-          margin-bottom: 0;
+          margin-bottom: 20px;
         }
       }
     }
   }
   .feature-icon {
-    max-width: 100px;
+    max-width: 80px;
     filter: grayscale(30%);
   }
   .box:hover {

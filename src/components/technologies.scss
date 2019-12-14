@@ -3,6 +3,9 @@
 .technologies {
   img {
     width: 86px;
+    @media (max-width: $phone-portrait-max-width) {
+      width: 56px;
+    }
   }
   .row {
     justify-content: space-between;

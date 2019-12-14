@@ -1,6 +1,14 @@
 @import "../scss/variables";
 @import "../scss/animation";
 
+@mixin Form {
+  max-width: 480px;
+  background: white;
+  padding: 45px 60px 25px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+}
+
 .ReactModal__Overlay {
   z-index: 5;
   background-color: white !important;
@@ -17,15 +25,23 @@
   right: 0 !important;
   bottom: 0 !important;
   animation: fadein 1s;
+  .requestForm {
+    @include Form;
+    margin-right: 10%;
+  }
 }
-
+body:not(.ReactModal__Body--open) {
+  .requestForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .form {
+      @include Form;
+    }
+  }
+}
 .requestForm {
-  max-width: 480px;
-  background: white;
-  padding: 45px 60px 25px;
-  border-radius: 20px;
-  border: 1px solid lightgray;
-  margin-right: 10%;
   h2 {
     font-size: 28px;
   }

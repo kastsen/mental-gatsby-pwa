@@ -8,7 +8,7 @@ const TopSection =() => (
     <SectionLayout name="topSection">
         <h1>
             Progressive technologies <br/>
-            for your business
+            for <span>your</span> business
         </h1>
         <p>
             Progressive Web Apps helps to improve conversions by increasing<br/>
