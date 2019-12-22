@@ -6,7 +6,7 @@ const Footer = () => {
     return (
       <footer>
         <ul className='textWhite'>
-          <li>© {new Date().getFullYear()} Hurry Fusion. All rights reserved</li>
+          <li>© {new Date().getFullYear()} HurryFusion. All rights reserved</li>
           <li> |</li>
           <li><a href="/privacy-policy/">Privacy Policy</a></li>
           <li><a href="/">Term of Service</a></li>
