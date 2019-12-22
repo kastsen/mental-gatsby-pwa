@@ -1,7 +1,6 @@
 import React from "react"
 
 import './pwaReliable.scss'
-import pwaImg from './../images/magento-2-pwa-theme.png'
 
 import SectionLayout from "./sectionLayout";
 
