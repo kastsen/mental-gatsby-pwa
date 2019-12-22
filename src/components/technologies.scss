@@ -3,6 +3,8 @@
 .technologies {
   img {
     width: 86px;
+    filter: grayscale(90%);
+    transition: $transition;
     @media (max-width: $phone-portrait-max-width) {
       width: 56px;
     }
@@ -34,6 +36,9 @@
       opacity: 1;
       h3 {
         opacity: .8;
+      }
+      img {
+        filter: grayscale(10%);
       }
     }
   }
