@@ -1,8 +1,7 @@
 @import "./../scss/variables";
 
 .topSection {
-  background: url("../images/bg_.jpg") top right no-repeat;
-  background-size: cover;
+  background: #270036;
   height: 700px;
   display: flex;
   flex-direction: column;
@@ -17,22 +16,20 @@
     padding-left: 0;
     padding-right: 0;
   }
-  &:before,
   &:after {
-    height: 100%;
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
     content: '';
-    opacity: .98;
-  }
-  &:before {
-    width: 40%;
-    background: $black;
-  }
-  &:after {
-    background: linear-gradient(to right, $black, transparent);
-    width: 130%;
-    left: 40%;
+    width: 50%;
+    height: 100%;
+    background: url("../images/development.svg") center center no-repeat;
+    background-size: contain;
+    @media (max-width: 620px) {
+      width: 100%;
+      opacity: .2;
+    }
   }
   .content {
     position: relative;
