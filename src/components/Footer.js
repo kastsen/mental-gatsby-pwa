@@ -9,7 +9,6 @@ const Footer = () => {
           <li>© {new Date().getFullYear()} HurryFusion. All rights reserved</li>
           <li> |</li>
           <li><a href="/privacy-policy/">Privacy Policy</a></li>
-          <li><a href="/">Term of Service</a></li>
         </ul>
       </footer>
     )
