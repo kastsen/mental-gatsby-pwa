@@ -16,9 +16,6 @@ const IndexPage = () => (
     <Features/>
     <PwaReliable/>
     <Technologies/>
-    {/*<SectionLayout name="test">*/}
-    {/*    <Link to="/page-2/">Go to page 2</Link>*/}
-    {/*</SectionLayout>*/}
   </Layout>
 )
 
