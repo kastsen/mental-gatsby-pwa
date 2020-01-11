@@ -14,9 +14,10 @@
   background-color: white !important;
 }
 .ReactModal__Content {
+  background: #4100A5 url("../images/social.svg") top left no-repeat !important;
+  background-size: contain !important;
   border: 0 !important;
-  background: #F2F5F9 url("../images/women.jpg") top left no-repeat !important;
-  background-size: cover !important;
+  border-radius: 0 !important;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -32,12 +33,15 @@
 }
 body:not(.ReactModal__Body--open) {
   .requestForm {
+    background: #4100A5 url("../images/social.svg") top left no-repeat !important;
+    background-size: contain !important;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     min-height: 100vh;
     .form {
       @include Form;
+      margin-right: 10%;
     }
   }
 }
@@ -53,9 +57,10 @@ body:not(.ReactModal__Body--open) {
     background-size: cover;
     width: 20px;
     height: 20px;
-    opacity: .4;
+    opacity: .9;
+    filter: invert(1);
     &:hover {
-      opacity: .7;
+      opacity: 1;
     }
   }
   input, textarea {
@@ -101,13 +106,5 @@ body:not(.ReactModal__Body--open) {
   .logo {
     z-index: 10;
     position: fixed;
-    a {
-      color: $black;
-      animation: fadein 1s;
-    }
-    &:before {
-      background-image: url("../images/logo-black.svg");
-      animation: fadein 1s;
-    }
   }
 }

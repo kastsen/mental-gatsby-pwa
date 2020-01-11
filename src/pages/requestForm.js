@@ -17,11 +17,8 @@ const ModalExamplePage = () => (
           {modal ? (
             <Link to={closeTo} className='close' onClick={visibleScroll}>
             </Link>
-          ) : (
-            <>
-            </>
-          )}
-          <h2>Get Started</h2>
+          ) : (<></>)}
+          <h2>Contact Us</h2>
           <GetStartedForm/>
         </div>
       )}

@@ -15,8 +15,7 @@ const PwaReliable =() => (
                   <p>
                       Even though Progressive Web Apps build on <br/>
                       new technologies, they are already widely <br/>
-                      in use in the industry. Start with building <br/>
-                    a great web experience.
+                      in use in the industry.
                   </p>
           </div>
       </div>

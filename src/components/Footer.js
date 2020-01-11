@@ -7,7 +7,6 @@ const Footer = () => {
       <footer>
         <ul className='textWhite'>
           <li>© {new Date().getFullYear()} HurryFusion. All rights reserved</li>
-          <li> |</li>
           <li><a href="/privacy-policy/">Privacy Policy</a></li>
         </ul>
       </footer>

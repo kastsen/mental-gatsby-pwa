@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import { hideScroll } from './hideScroll'
 
 const Nav =() => (
     <nav>
@@ -8,19 +9,28 @@ const Nav =() => (
                 <Link to="#services">Services</Link>
             </li>
             <li>
-                <Link to="#technologies">Technologies</Link>
+                <Link to="#technologies">Stack</Link>
             </li>
-            {/*<li>*/}
-            {/*    <Link to="/">Showcase</Link>*/}
-            {/*</li>*/}
+            <li>
+                <a href="https://kasten.hurryfusion.com/#portfolio">Showcase</a>
+            </li>
             {/*<li>*/}
             {/*    <Link to="/">Blog</Link>*/}
             {/*</li>*/}
             <li>
-                <Link to="/">About</Link>
+                <a href="https://kasten.hurryfusion.com/#about">About</a>
             </li>
             <li>
-                <Link to="/">Contact Us</Link>
+                <Link
+                  to="/requestForm/"
+                  state={{
+                      modal: true,
+                      noScroll: true,
+                  }}
+                  onClick={hideScroll}
+                >
+                    Contact Us
+                </Link>
             </li>
         </ul>
     </nav>

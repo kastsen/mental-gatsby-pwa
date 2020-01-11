@@ -13,7 +13,6 @@ const Header = ({ siteTitle }) => (
         <div className='container'
             style={{
                 display: `flex`,
-
                 alignItems: `center`
             }}
         >
