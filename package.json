@@ -26,7 +26,8 @@
     "webpack": "^4.41.2"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "yarn-upgrade-all": "^0.5.4"
   },
   "keywords": [
     "gatsby"
