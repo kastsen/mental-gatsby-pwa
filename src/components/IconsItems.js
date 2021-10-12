@@ -1,6 +1,6 @@
 import React from "react"
 
-export const createItems = (data, className) => {
+export const IconsItems = (data, className) => {
   const items = data.map((item) => {
       return (
         <div className={className} key={item.id}>

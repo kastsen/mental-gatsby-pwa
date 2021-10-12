@@ -4,7 +4,7 @@ import SectionLayout from "./sectionLayout";
 import './topSection.scss'
 import GetStartedBtn from "./GetStartedBtn"
 
-const TopSection =() => (
+const HeadSection =() => (
     <SectionLayout name="topSection">
         <h1>
             Progressive technologies <br/>
@@ -18,4 +18,4 @@ const TopSection =() => (
     </SectionLayout>
 );
 
-export default TopSection
+export default HeadSection
