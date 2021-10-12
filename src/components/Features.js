@@ -6,7 +6,7 @@ import transformationIcon from './../images/solar-system.svg';
 
 import './features.scss'
 import SectionLayout from './sectionLayout';
-import { createItems } from './createItems';
+// import { createItems } from './createItems';
 
 const featuresData = [
     {
@@ -36,7 +36,7 @@ const Features = () =>
           Why build a Progressive App?
         </h2>
         <div className="row">
-            {createItems(featuresData, 'col-lg-4')}
+            {/*{createItems(featuresData, 'col-lg-4')}*/}
         </div>
     </SectionLayout>
 ;
