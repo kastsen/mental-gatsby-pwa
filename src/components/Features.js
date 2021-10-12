@@ -5,7 +5,7 @@ import developmentIcon from './../images/rocket-ship.svg';
 import transformationIcon from './../images/solar-system.svg';
 
 import './features.scss'
-import SectionLayout from "./sectionLayout";
+import SectionLayout from './sectionLayout';
 import { createItems } from './createItems';
 
 const featuresData = [
