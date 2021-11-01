@@ -1,6 +1,9 @@
 @import "./../scss/variables.scss";
 
 .technologies {
+  background: linear-gradient(#2D015A, #010130);
+  padding-top: 20px;
+  color: #fff;
   img {
     width: 66px;
     filter: grayscale(90%);

@@ -3,7 +3,6 @@ import React from 'react';
 import nodejsIcon from './../images/nodejs.svg'
 import reactIcon from './../images/react-icon.svg'
 import gatsbyIcon from './../images/gatsby.svg'
-import eslintIcon from './../images/eslint.svg'
 import graphqlIcon from './../images/graph-ql-logo.svg'
 
 import SectionLayout from "./sectionLayout";
@@ -15,11 +14,6 @@ const featuresData = [
     id: 'nodejs',
     title: 'Node JS',
     img: nodejsIcon
-  },
-  {
-    id: 'eslint',
-    title: 'ESLint',
-    img: eslintIcon
   },
   {
     id: '1reactJs',
@@ -52,7 +46,7 @@ const createItems = (data) => {
 }
 
 const Technologies = () =>
-  <SectionLayout name="technologies bgGray">
+  <SectionLayout name="technologies">
     <div className="text-center">
       <h2 id='technologies'>
         Technology Stack

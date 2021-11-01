@@ -5,9 +5,8 @@ import React from "react"
 
 export const data = {
   headSection: {
-    title: 'Progressive technologies for your business',
-    description: 'Progressive Web Apps helps to improve conversions by increasing ' +
-                 'potential reach with low acquisition costs.'
+    title: 'Use technologies for business',
+    description: 'Progressive apps help increase conversions and royalties.'
   },
   features: [
     {
@@ -19,14 +18,14 @@ export const data = {
     {
       id: 'solutionDev',
       name: 'Fast Development',
-      descr: 'If you are building for the web, PWA has incredible benefits.',
+      descr: 'If you are building for the web, app has incredible benefits.',
       img: developmentIcon
     },
 
     {
       id: 'transformationServices',
       name: 'Transformation',
-      descr: 'Progressive Web Apps now work on all desktop platforms.',
+      descr: 'Progressive apps now work on all desktop platforms.',
       img: transformationIcon
     },
   ]

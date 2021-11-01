@@ -12,12 +12,13 @@
     position: absolute;
   }
   &:after {
-    height: 80%;
-    width: 40%;
-    left: 10%;
-    top: 10%;
-    background: url("../images/support.svg") center right no-repeat;
-    background-size: contain;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    top: 0;
+    background: url("../images/social.svg") center right no-repeat;
+    //background: url("../images/support.svg") center right no-repeat;
+    background-size: auto 100%;
     opacity: .9;
     @media (max-width: 890px) {
       left: 0;

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `HurryFusion`,
+    title: `Mental Fusion`,
     description: `Progressive technologies for business.`,
     author: `@kastsen`,
   },
