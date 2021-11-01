@@ -47,15 +47,6 @@ const createItems = (data) => {
 
 const Technologies = () =>
   <SectionLayout name="technologies">
-    <div className="text-center">
-      <h2 id='technologies'>
-        Technology Stack
-      </h2>
-      <p>
-        A technology stack, also called a solutions stack or a data system, <br/>
-        is a list of all the services used to build one single application.
-      </p>
-    </div>
     <div className="row text-center technologiesList">
       {createItems(featuresData)}
     </div>
