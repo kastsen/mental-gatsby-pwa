@@ -1,7 +1,6 @@
 import conceptIcon from './../images/astronaut.svg';
 import developmentIcon from './../images/rocket-ship.svg';
 import transformationIcon from './../images/solar-system.svg';
-import React from "react"
 
 export const data = {
   headSection: {

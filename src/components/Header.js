@@ -6,7 +6,7 @@ import './header.scss'
 import './headerNav.scss'
 
 import Nav from "./nav"
-import GetStartedBtn from "./GetStartedBtn"
+// import GetStartedBtn from "./GetStartedBtn"
 
 const Header = ({ siteTitle }) => (
     <header>
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
                 </Link>
             </div>
             <Nav/>
-            <GetStartedBtn/>
+            {/*<GetStartedBtn/>*/}
         </div>
     </header>
 );

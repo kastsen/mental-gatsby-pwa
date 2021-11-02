@@ -9,18 +9,12 @@ const Nav =() => (
                 <Link to="#services">Services</Link>
             </li>
             <li>
-                <Link to="#technologies">Stack</Link>
-            </li>
-            <li>
                 <a href="https://kasten.hurryfusion.com/#portfolio">Showcase</a>
             </li>
-            {/*<li>*/}
-            {/*    <Link to="/">Blog</Link>*/}
-            {/*</li>*/}
             <li>
                 <a href="https://kasten.hurryfusion.com/#about">About</a>
             </li>
-            <li>
+            <li className={'contact-us'}>
                 <Link
                   to="/requestForm/"
                   state={{
@@ -29,7 +23,7 @@ const Nav =() => (
                   }}
                   onClick={hideScroll}
                 >
-                    Contact Us
+                    Contact us
                 </Link>
             </li>
         </ul>
