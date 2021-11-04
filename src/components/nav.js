@@ -9,21 +9,22 @@ const Nav =() => (
                 <Link to="#services">Services</Link>
             </li>
             <li>
-                <a href="https://kasten.hurryfusion.com/#portfolio">Showcase</a>
+                <a href="/pricing/">Pricing</a>
             </li>
-            <li>
-                <a href="https://kasten.hurryfusion.com/#about">About</a>
-            </li>
-            <li className={'contact-us'}>
+          <li>
+            <a href="/blog/">
+              Blog
+            </a>
+          </li>
+            <li className={'contactUs'}>
                 <Link
                   to="/requestForm/"
                   state={{
                       modal: true,
                       noScroll: true,
                   }}
-                  onClick={hideScroll}
-                >
-                    Contact us
+                  onClick={hideScroll}>
+                    Contact
                 </Link>
             </li>
         </ul>

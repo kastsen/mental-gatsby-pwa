@@ -2,18 +2,18 @@ import React from "react"
 import SectionLayout from "./sectionLayout";
 
 import './topSection.scss'
-import GetStartedBtn from "./GetStartedBtn"
+// import GetStartedBtn from "./GetStartedBtn"
 
 const HeadSection =() => (
     <SectionLayout name="topSection">
         <h1>
             Use technologies <br/>
-            for business
+            for business.
         </h1>
         <p>
-          Progressive apps help increase conversions and royalties.
+          Progressive apps help increase conversions.
         </p>
-        <GetStartedBtn/>
+        {/*<GetStartedBtn/>*/}
     </SectionLayout>
 );
 

@@ -17,11 +17,7 @@ const Header = ({ siteTitle }) => (
             }}
         >
             <div className='logo'>
-                <Link
-                    to="/"
-                >
-                    {siteTitle}
-                </Link>
+                <Link to="/">{siteTitle}</Link>
             </div>
             <Nav/>
             {/*<GetStartedBtn/>*/}
