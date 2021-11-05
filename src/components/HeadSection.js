@@ -2,7 +2,7 @@ import React from "react"
 import SectionLayout from "./sectionLayout";
 
 import './topSection.scss'
-// import GetStartedBtn from "./GetStartedBtn"
+import GetStartedBtn from "./GetStartedBtn"
 
 const HeadSection =() => (
     <SectionLayout name="topSection">
@@ -11,9 +11,10 @@ const HeadSection =() => (
             for business.
         </h1>
         <p>
+          We will transform your business to digital. <br/>
           Progressive apps help increase conversions.
         </p>
-        {/*<GetStartedBtn/>*/}
+        <GetStartedBtn/>
     </SectionLayout>
 );
 

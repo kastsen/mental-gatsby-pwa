@@ -1,14 +1,16 @@
-$black: #000111;
-$fontFamily: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-$bgColor: linear-gradient(241.08deg, #080A0F 13.4%, #131625 118.4%);
+$fontFamily: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $border-radius: 50px;
+$transition: .3s;
+$hideNavWidth: 880px;
+
+// colors
+$black: #000111;
+$linkHover: #0FD0AE;
 $colorDark: #0E1771;
 $footerBG: linear-gradient(194.49deg, $black -12.15%, #080A0F 98.41%);
 $linkHoverColor: #21A2E8;
 $btnHover: #00BFA5;
-$transition: .3s;
-$hideNavWidth: 880px;
+$bgColor: linear-gradient(241.08deg, #080A0F 13.4%, #131625 118.4%);
 
 //heights
 $sectionPadding: 40px;
@@ -19,14 +21,11 @@ $containerPaddingTop: 78px;
 $logoSize: 22px;
 
 // banner
-
 $padding: 30px;
 $yellow: #F7D168;
 $yellowDark: #D57E0B;
 
-
 //// @media sizes
-
 // laptop
 $laptop-min-width: 1200px;
 

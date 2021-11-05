@@ -1,14 +1,13 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 
 import './header.scss'
 import './headerNav.scss'
 
 import Nav from "./nav"
-// import GetStartedBtn from "./GetStartedBtn"
+import GetStartedBtn from "./GetStartedBtn"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
     <header>
         <div className='container'
             style={{
@@ -17,20 +16,12 @@ const Header = ({ siteTitle }) => (
             }}
         >
             <div className='logo'>
-                <Link to="/">{siteTitle}</Link>
+                <Link to="/"></Link>
             </div>
             <Nav/>
             {/*<GetStartedBtn/>*/}
         </div>
     </header>
 );
-
-Header.propTypes = {
-    siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-    siteTitle: ``,
-};
 
 export default Header

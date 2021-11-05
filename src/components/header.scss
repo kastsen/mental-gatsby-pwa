@@ -1,18 +1,11 @@
 @import "./../scss/_variables.scss";
 
-* {
-  font-family: $fontFamily;
-  transition: $transition;
-}
-
-$linkHover: #0FD0AE;
-
 header {
   font-weight: 500;
   font-size: 16px;
   position: relative;
   z-index: 2;
-  height: 80px;
+  height: 90px;
   display: flex;
   align-items: center;
   .container {
@@ -34,36 +27,4 @@ header {
   }
 }
 
-.logo {
-  font-weight: 500;
-  font-size: 23px;
-  position: relative;
-  animation: fadein .5s;
-  line-height: 28px;
-  &:before {
-    position: absolute;
-    content: '';
-    background: url("../images/logo.svg") center center no-repeat;
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-    left: 0;
-    top: 0;
-    transition: $transition;
-    z-index: 0;
-  }
-  a {
-    padding-left: 40px;
-    position: relative;
-    z-index: 1;
-  }
-  &:hover{
-    &:before {
-      background-image: url("../images/logo-green.svg");
-      transition: $transition;
-    }
-    a {
-      color: $linkHover;
-    }
-  }
-}
+@import "../scss/logo";

@@ -9,11 +9,8 @@ const GetStartedBtn = () => (
     state={{
       modal: true,
       noScroll: true,
-    }}
-  >
-    <button className='join-btn' onClick={hideScroll}>
-      Get Started
-    </button>
+    }}>
+    <button className='join-btn' onClick={hideScroll}>Join Now</button>
   </Link>
 )
 

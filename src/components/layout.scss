@@ -1,5 +1,9 @@
 @import "../scss/variables";
 
+* {
+  font-family: $fontFamily;
+  transition: $transition;
+}
 html {
   font-family: $fontFamily;
   -ms-text-size-adjust: 100%;
