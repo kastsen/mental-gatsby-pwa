@@ -1,16 +1,10 @@
 import React from "react"
 import { Link } from 'gatsby'
 import './getStartedBtn.scss'
-import { hideScroll } from './hideScroll'
 
 const GetStartedBtn = () => (
-  <Link
-    to="/requestForm/"
-    state={{
-      modal: true,
-      noScroll: true,
-    }}>
-    <button className='join-btn' onClick={hideScroll}>Join Now</button>
+  <Link to="/requestForm/">
+    <button className='join-btn'>Join Now</button>
   </Link>
 )
 
