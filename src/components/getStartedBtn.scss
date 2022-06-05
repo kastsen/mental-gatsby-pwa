@@ -1,7 +1,7 @@
-@import "./../scss/variables.scss";
+@import "./../scss/_variables.scss";
 
 .join-btn {
-  background: #0DBA9D;
+  background: $join;
   border: none;
   box-shadow: none;
   padding: 9px 25px;
@@ -9,8 +9,10 @@
   border-radius: 50px;
   color: white;
   cursor: pointer;
+  opacity: 0.78;
   &:hover {
-    background: #16B18F;
+    background: $join;
     box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+    opacity: 1;
   }
 }

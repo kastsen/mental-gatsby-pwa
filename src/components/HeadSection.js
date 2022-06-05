@@ -7,8 +7,8 @@ import GetStartedBtn from "./GetStartedBtn"
 const HeadSection =() => (
     <SectionLayout name="topSection">
         <h1>
-            Use technologies <br/>
-            for business
+          Application <br/>
+          for business
         </h1>
         <p>
           We will transform your business to digital

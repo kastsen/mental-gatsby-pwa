@@ -5,13 +5,16 @@ $hideNavWidth: 880px;
 
 // colors
 $black: #000111;
-$linkHover: #0FD0AE;
+$linkHover: #A6125E;
+$green: #0FD0AE;
+$join: linear-gradient(241.08deg, $linkHover 13.4%, $green 118.4%);
 $colorDark: #93032f;
-$footerBG: linear-gradient(194.49deg, $black -12.15%, #4a0218 98.41%);
-$linkHoverColor: #21A2E8;
-$btnHover: #00BFA5;
-$bgColor: linear-gradient(241.08deg, #080A0F 13.4%, #93032f 118.4%);
 $darkPink: #310110;
+$footerBG: linear-gradient(194.49deg, $black -12.15%, $darkPink 98.41%);
+$linkHoverColor: $linkHover;
+$btnHover: $linkHover;
+$red: #93032f;
+$bgColor: linear-gradient(241.08deg, #080A0F 13.4%, $red 118.4%);
 
 //heights
 $sectionPadding: 40px;
