@@ -4,6 +4,7 @@ import React from "react"
 const Nav =() => (
     <nav>
         <ul>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="#services">Services</Link></li>
             {/*<li><a href="/pricing/">Pricing</a></li>*/}
             {/*<li><a href="/blog/">Blog</a></li>*/}
