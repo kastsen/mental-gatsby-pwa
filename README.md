@@ -1,13 +1,14 @@
 <h1>Gatsby's PWA</h1>
 
-Use Node JS v. 16.13.0
+PWA demo - GO! - https://hurryfusion.gatsbyjs.io/
 
 ## 🚀 Quick start
 
 1.  **Start developing.**
 
     ```shell
-    nvm use 14.18.0
+    nvm use 16.13.0
+    yarn
     gatsby develop
     ```
 
