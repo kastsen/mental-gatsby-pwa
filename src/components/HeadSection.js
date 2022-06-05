@@ -8,11 +8,10 @@ const HeadSection =() => (
     <SectionLayout name="topSection">
         <h1>
             Use technologies <br/>
-            for business.
+            for business
         </h1>
         <p>
-          We will transform your business to digital. <br/>
-          Progressive apps help increase conversions.
+          We will transform your business to digital
         </p>
         <GetStartedBtn/>
     </SectionLayout>

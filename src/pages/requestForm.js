@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
 import './modalWindow.scss'
 import GetStartedForm from "../components/Form"
+import '../scss/ui.scss'
 
 const visibleScroll = () => {
   const page = document.querySelector('html')
@@ -20,6 +21,7 @@ const ModalExamplePage = () => (
           ) : (<></>)}
           <h2>Contact Us</h2>
           <GetStartedForm/>
+          <a href="/"><span className='closeIcon'></span></a>
         </div>
       )}
     </ModalRoutingContext.Consumer>

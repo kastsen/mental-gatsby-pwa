@@ -2,6 +2,9 @@
 /node_modules
 dist
 
+# windows
+desktop.ini
+
 # Logs
 logs
 *.log
