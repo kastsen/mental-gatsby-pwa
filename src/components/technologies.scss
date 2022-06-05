@@ -1,7 +1,7 @@
-@import "./../scss/variables.scss";
+@import "./../scss/_variables.scss";
 
 .technologies {
-  background: linear-gradient(#2D015A, #010130);
+  background: linear-gradient($darkPink, #010130);
   padding-top: 20px;
   color: #fff;
   img {

@@ -1,10 +1,12 @@
+@import "./../scss/_variables.scss";
+
 .bgGray {
   background: #F1F3F4;
 }
 
 .pwaReliable {
   position: relative;
-  background: #2D015A;
+  background: $darkPink;
   color: white;
   overflow: hidden;
   &:after {
