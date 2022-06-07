@@ -1,6 +1,6 @@
 <h1>Gatsby's PWA</h1>
 
-PWA demo - GO! - https://hurryfusion.gatsbyjs.io/
+PWA demo - GO! - https://mental.gatsbyjs.io
 
 ## 🚀 Quick start
 
