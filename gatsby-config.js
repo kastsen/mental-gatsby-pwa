@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Mental Fusion`,
+    title: `Kastenedev`,
     description: `Progressive technologies for business.`,
     author: `@kastsen`,
   },
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `HurryFusion`,
-        short_name: `HurryFusion`,
+        name: `Kastenedev`,
+        short_name: `Kastenedev`,
         start_url: `/`,
         background_color: `#020111`,
         theme_color: `#020111`,

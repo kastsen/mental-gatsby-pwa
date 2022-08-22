@@ -1,19 +1,18 @@
 import React from "react"
 import SectionLayout from "./sectionLayout";
-
 import './topSection.scss'
-import GetStartedBtn from "./GetStartedBtn"
 
 const HeadSection =() => (
     <SectionLayout name="topSection">
+      <div className="background"></div>
         <h1>
-          Application <br/>
-          for business
+          Kastenedev
         </h1>
+      <div className='description'>
         <p>
-          We will transform your business to digital
+          Artist & digital nomad. JavaScript developer & speaker who builds delightful, high-performance tools, products, and games.
         </p>
-        <GetStartedBtn/>
+      </div>
     </SectionLayout>
 );
 
