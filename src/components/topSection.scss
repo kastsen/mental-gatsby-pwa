@@ -1,8 +1,21 @@
 @import "./../scss/_variables.scss";
 
+.demoGame {
+  position: absolute;
+  width: 50%;
+  height: $displayHeight;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  filter: grayscale(6%);
+  transition: $transition;
+  &:hover {
+    filter: grayscale(1%);
+  }
+}
+
 .topSection {
-  background: $footerBG;
-  height: 800px;
+  height: $displayHeight;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -12,25 +25,14 @@
   position: relative;
   margin-top: -90px;
   padding: 120px 0 120px;
+  background: $black;
+  * {
+    z-index: 0;
+    opacity: 0.95;
+  }
   .content {
     padding-left: 0;
     padding-right: 0;
-  }
-  &:after {
-    position: absolute;
-    top: 55%;
-    transform: translateY(-50%);
-    right: 5%;
-    content: '';
-    width: 46%;
-    height: 100%;
-    background: url("../images/development.svg") center center no-repeat;
-    background-size: contain;
-
-    @media (max-width: 620px) {
-      width: 100%;
-      opacity: .2;
-    }
   }
   .content {
     position: relative;
@@ -39,11 +41,9 @@
   h1 {
     font-size: 66px;
     line-height: 142%;
-    font-weight: 600;
-    @media (max-width: 620px) {
-      span {
-        display: none;
-      }
+    font-weight: 700;
+    span {
+      color: $green;
     }
     @media (max-width: 420px) {
       font-size: 42px;
@@ -51,6 +51,7 @@
   }
   p {
     font-size: 20px;
+    opacity: 0.7;
     @media (max-width: $phone-portrait-max-width) {
       max-width: 300px;
       br {
@@ -67,5 +68,12 @@
     padding: 0;
     margin-top: 20px;
     font-weight: 500;
+  }
+
+  .description {
+    max-width: 40%;
+    @media (max-width: $phone-portrait-max-width) {
+      max-width: 100%;
+    }
   }
 }

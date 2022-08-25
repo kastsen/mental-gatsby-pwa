@@ -1,20 +1,23 @@
 import React from "react"
 import SectionLayout from "./sectionLayout";
-
 import './topSection.scss'
-import GetStartedBtn from "./GetStartedBtn"
 
 const HeadSection =() => (
+  <>
+    <iframe src="/rescue.html" frameBorder="0" width="50%" height="auto" className="demoGame"></iframe>
     <SectionLayout name="topSection">
-        <h1>
-          Application <br/>
-          for business
-        </h1>
+      <div className="background"></div>
+      <h1>
+        Yury Kastsen<br></br>
+        <span>JS</span> Developer
+      </h1>
+      <div className='description'>
         <p>
-          We will transform your business to digital
+          Developer & Speaker who builds high-performance tools, products, apps and games
         </p>
-        <GetStartedBtn/>
+      </div>
     </SectionLayout>
+  </>
 );
 
 export default HeadSection

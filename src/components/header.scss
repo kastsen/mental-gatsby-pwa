@@ -17,7 +17,7 @@ header {
     text-decoration: none;
     color: white;
     &:hover {
-      color: $linkHover;
+      color: $green;
     }
   }
   @media (max-width: $hideNavWidth) {

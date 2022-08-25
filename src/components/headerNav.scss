@@ -2,7 +2,7 @@
 
 nav {
   flex: 1;
-  text-align: right;
+  text-align: left;
   @media (max-width: $hideNavWidth) {
     display: none !important;
   }

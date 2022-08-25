@@ -1,12 +1,10 @@
 @import "./../scss/_variables.scss";
 
 .technologies {
-  background: linear-gradient($darkPink, #010130);
-  padding-top: 20px;
-  color: #fff;
+  color: $black;
   img {
-    width: 66px;
-    filter: grayscale(90%);
+    width: 150px;
+    filter: grayscale(5%);
     transition: $transition;
     @media (max-width: $phone-portrait-max-width) {
       width: 56px;
@@ -22,6 +20,7 @@
     }
   }
   h3 {
+    opacity: 0.9;
     font-size: 18px;
     padding-left: 10px;
     @media (max-width: 1000px) {
@@ -34,14 +33,9 @@
   .item-flex {
     display: flex;
     align-items: center;
-    opacity: .8;
     &:hover {
-      opacity: 1;
-      h3 {
-        opacity: .8;
-      }
       img {
-        filter: grayscale(10%);
+        filter: grayscale(1%);
       }
     }
   }
@@ -52,6 +46,6 @@
     }
   }
   .technologiesList {
-    margin-top: 60px;
+    margin-top: 30px;
   }
 }
