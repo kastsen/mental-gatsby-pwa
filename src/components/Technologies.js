@@ -1,9 +1,11 @@
 import React from 'react';
 
-import nodejsIcon from './../images/nodejs.svg'
-import reactIcon from './../images/react-icon.svg'
-import gatsbyIcon from './../images/gatsby.svg'
-import graphqlIcon from './../images/graph-ql-logo.svg'
+import nodejsIcon from './../images/nodejs-ar21.svg'
+import reactIcon from './../images/reactjs-ar21.svg'
+import gatsbyLogo from './../images/Gatsby-Logo.svg'
+import pixiJsLogo from './../images/logo-pixi-js.svg'
+import tweenJsLogo from './../images/docs-icon-TweenJS.png'
+import matterJsLogo from './../images/marrerjslogo.svg'
 
 import SectionLayout from "./sectionLayout";
 
@@ -20,15 +22,25 @@ const featuresData = [
     title: 'React JS',
     img: reactIcon
   },
+  // {
+  //   id: 'gatsbyJs',
+  //   title: 'gatsby js',
+  //   img: gatsbyLogo
+  // },
   {
-    id: 'graphql',
-    title: 'GraphQL',
-    img: graphqlIcon
+    id: 'pixiJs',
+    title: 'PIXI JS',
+    img: pixiJsLogo
   },
   {
-    id: 'gatsby',
-    title: 'Gatsby JS',
-    img: gatsbyIcon
+    id: 'tweenJs',
+    title: 'tween Js',
+    img: tweenJsLogo
+  },
+  {
+    id: 'matterJs',
+    title: 'matter Js',
+    img: matterJsLogo
   },
 ];
 
@@ -36,8 +48,7 @@ const createItems = (data) => {
   const items = data.map((item) => {
       return (
         <div key={item.id} className='item-flex'>
-            <img src={item.img} alt={item.name} className='feature-icon'/>
-            <h3>{item.title}</h3>
+            <img src={item.img} alt={item.title} className='feature-icon' width="120"/>
         </div>
       )
     }
@@ -46,11 +57,13 @@ const createItems = (data) => {
 }
 
 const Technologies = () =>
-  <SectionLayout name="technologies">
-    <div className="row text-center technologiesList">
-      {createItems(featuresData)}
-    </div>
-  </SectionLayout>
+  <div id='technologies'>
+    <SectionLayout name="technologies">
+      <div className="row text-center technologiesList">
+        {createItems(featuresData)}
+      </div>
+    </SectionLayout>
+  </div>
 ;
 
 export default Technologies;

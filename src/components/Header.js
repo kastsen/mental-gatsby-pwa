@@ -5,7 +5,6 @@ import './header.scss'
 import './headerNav.scss'
 
 import Nav from "./nav"
-// import GetStartedBtn from "./GetStartedBtn"
 
 const Header = () => (
     <header>

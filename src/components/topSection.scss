@@ -1,7 +1,21 @@
 @import "./../scss/_variables.scss";
 
+.demoGame {
+  position: absolute;
+  width: 50%;
+  height: $displayHeight;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  filter: grayscale(6%);
+  transition: $transition;
+  &:hover {
+    filter: grayscale(1%);
+  }
+}
+
 .topSection {
-  height: 800px;
+  height: $displayHeight;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -12,25 +26,13 @@
   margin-top: -90px;
   padding: 120px 0 120px;
   background: $black;
+  * {
+    z-index: 0;
+    opacity: 0.95;
+  }
   .content {
     padding-left: 0;
     padding-right: 0;
-  }
-  &:after {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 5%;
-    content: '';
-    width: 46%;
-    height: 75%;
-    background: url("../images/development.svg") center center no-repeat;
-    background-size: contain;
-
-    @media (max-width: 620px) {
-      width: 100%;
-      opacity: .2;
-    }
   }
   .content {
     position: relative;
@@ -40,10 +42,8 @@
     font-size: 66px;
     line-height: 142%;
     font-weight: 700;
-    @media (max-width: 620px) {
-      span {
-        display: none;
-      }
+    span {
+      color: $green;
     }
     @media (max-width: 420px) {
       font-size: 42px;
