@@ -11,8 +11,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title='Progressive Web Apps for business'/>
     <HeadSection/>
+    <Features title='Portfolio'/>
     <Technologies/>
-    <Features title='Why build a Progressive App?' data={data.features}/>
   </Layout>
 )
 
