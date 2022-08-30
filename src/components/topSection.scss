@@ -9,6 +9,7 @@
   z-index: 1;
   filter: grayscale(6%);
   transition: $transition;
+  cursor: grab;
   &:hover {
     filter: grayscale(1%);
   }

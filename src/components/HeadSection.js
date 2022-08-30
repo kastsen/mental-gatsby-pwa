@@ -8,12 +8,12 @@ const HeadSection =() => (
     <SectionLayout name="topSection">
       <div className="background"></div>
       <h1>
-        Yury Kastsen<br></br>
+        I'm Yury Kastsen<br></br>
         <span>JS</span> Developer
       </h1>
       <div className='description'>
         <p>
-          Developer & Speaker who builds high-performance tools, products, apps and games
+          High-performance tools, products, apps and games
         </p>
       </div>
     </SectionLayout>
