@@ -1,0 +1,19 @@
+@import "./../scss/_variables.scss";
+
+.socialIcons {
+  $iconWidth: 35px;
+  .social-icon {
+    position: absolute;
+    left: 0;
+    bottom: -130px;
+    max-width: $iconWidth;
+    opacity: .8;
+    &.linkedin {
+      left: $iconWidth + $iconWidth/2;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
