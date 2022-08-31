@@ -2,7 +2,6 @@ import React from 'react';
 
 import nodejsIcon from './../images/nodejs-ar21.svg'
 import reactIcon from './../images/reactjs-ar21.svg'
-import gatsbyLogo from './../images/Gatsby-Logo.svg'
 import pixiJsLogo from './../images/logo-pixi-js.svg'
 import tweenJsLogo from './../images/docs-icon-TweenJS.png'
 import matterJsLogo from './../images/marrerjslogo.svg'

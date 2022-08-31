@@ -679,3 +679,7 @@ ul {
 .col-lg-6 {
   max-width: 50%;
 }
+
+.invert {
+  filter: invert(100%);
+}
