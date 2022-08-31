@@ -5,6 +5,7 @@ import '../scss/socialIcons.scss'
 import GetStartedBtn from "./GetStartedBtn"
 import gitIcon from './../images/github.png'
 import linkedinIcon from './../images/linkedin.png'
+import upworkIcon from './../images/upwork.svg'
 
 const HeadSection =() => (
   <>
@@ -12,11 +13,11 @@ const HeadSection =() => (
     <SectionLayout name="topSection">
       <div className="background"></div>
       <h1>
-        Mental Dev.
+        Yury Kastsen
       </h1>
       <div className='description'>
         <p>
-          High-performance tools, products, apps and games
+          Developer & Speaker who builds high-performance tools, products, apps and games.
         </p>
       </div>
       <GetStartedBtn/>
@@ -26,6 +27,9 @@ const HeadSection =() => (
         </a>
         <a href="https://www.linkedin.com/in/kastsen/" target="_blank">
           <img src={linkedinIcon} alt='linkedin' className='social-icon invert linkedin' width="30" height='auto'/>
+        </a>
+        <a href="https://www.upwork.com/freelancers/~01ffc76279a8057a44" target="_blank">
+          <img src={upworkIcon} alt='upwork' className='social-icon invert upwork' width="30" height='auto'/>
         </a>
       </div>
     </SectionLayout>

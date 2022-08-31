@@ -9,8 +9,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title='Progressive Apps for business'/>
     <HeadSection/>
-    <Portfolio title='Portfolio'/>
     <Technologies/>
+    <Portfolio title='Portfolio'/>
   </Layout>
 )
 

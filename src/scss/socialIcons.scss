@@ -8,11 +8,14 @@
     bottom: -130px;
     max-width: $iconWidth;
     opacity: .8;
+    &:hover {
+      opacity: 1;
+    }
     &.linkedin {
       left: $iconWidth + $iconWidth/2;
     }
-    &:hover {
-      opacity: 1;
+    &.upwork {
+      left: $iconWidth*3;
     }
   }
 }
