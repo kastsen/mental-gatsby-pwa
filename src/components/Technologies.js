@@ -48,7 +48,7 @@ const createItems = (data) => {
   const items = data.map((item) => {
       return (
         <div key={item.id} className='item-flex'>
-            <img src={item.img} alt={item.title} className='feature-icon' width="120"/>
+            <img src={item.img} loading='lazy' alt={item.title} className='feature-icon' width="120"/>
         </div>
       )
     }

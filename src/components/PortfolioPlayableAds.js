@@ -13,13 +13,13 @@ const PortfolioPlayableAds = () =>
 
     <div className="row projects playableAds active">
       <div className="playable">
-        <iframe src="/p979.html" frameBorder="0" width="100%" height="auto"></iframe>
+        <iframe src="/p979.html" loading='lazy' frameBorder="0" width="100%" height="auto"></iframe>
       </div>
       <div className="playable">
-        <iframe src="/p1825.html" frameBorder="0" width="100%" height="auto"></iframe>
+        <iframe src="/p1825.html" loading='lazy' frameBorder="0" width="100%" height="auto"></iframe>
       </div>
       <div className="playable">
-        <iframe src="/p1664.html" frameBorder="0" width="100%" height="auto"></iframe>
+        <iframe src="/p1664.html" loading='lazy' frameBorder="0" width="100%" height="auto"></iframe>
       </div>
     </div>
   </>

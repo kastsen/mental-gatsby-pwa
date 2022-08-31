@@ -32,17 +32,17 @@ const PortfolioWebsites = () =>
     </div>
     <div className="row projects websites active websites-2">
       <div className="col-lg-4">
-        <img src={bvImg} alt='beauty village' className='projectScreen' width="300" height='auto'/>
+        <img src={bvImg} loading='lazy' alt='beauty village' className='projectScreen' width="300" height='auto'/>
       </div>
       <div className="col-lg-4">
-        <img src={epImg} alt='easy projects' className='projectScreen' width="300" height='auto'/>
+        <img src={epImg} loading='lazy' alt='easy projects' className='projectScreen' width="300" height='auto'/>
       </div>
       <div className="col-lg-4">
-        <img src={houseraImg} alt='housera' className='projectScreen' width="300" height='auto'/>
+        <img src={houseraImg} loading='lazy' alt='housera' className='projectScreen' width="300" height='auto'/>
       </div>
 
       <div className="col-lg-4">
-        <img src={glassImg} alt='glass factory NY' className='projectScreen' width="300" height='auto'/>
+        <img src={glassImg} loading='lazy' alt='glass factory NY' className='projectScreen' width="300" height='auto'/>
       </div>
     </div>
   </SectionLayout>
