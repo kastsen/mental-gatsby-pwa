@@ -4,7 +4,7 @@ import './getStartedBtn.scss'
 
 const GetStartedBtn = () => (
   <Link to="/requestForm/">
-    <button className='join-btn'>Hire Me</button>
+    <button className='join-btn'>Join Now</button>
   </Link>
 )
 
