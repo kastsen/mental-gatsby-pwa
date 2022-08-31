@@ -13,6 +13,9 @@
   &:hover {
     filter: grayscale(1%);
   }
+  @media (max-width: 970px) {
+    display: none;
+  }
 }
 
 .topSection {
@@ -73,6 +76,10 @@
 
   .description {
     max-width: 40%;
+    @media (max-width: 970px) {
+      width: 100%;
+      max-width: 100%;
+    }
     @media (max-width: $phone-portrait-max-width) {
       max-width: 100%;
     }

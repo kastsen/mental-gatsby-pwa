@@ -60,9 +60,20 @@
       }
     }
   }
+  .websites {
+    .col-lg-4 {
+      @media (max-width: 970px) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
   .websites-2 {
     margin-top: -32px;
     padding-bottom: 30px;
+    @media (max-width: 970px) {
+      display: none;
+    }
   }
   .feature-icon {
     max-width: 80px;
@@ -87,6 +98,9 @@
       width: 33.3%;
       iframe {
         min-height: 340px;
+      }
+      @media (max-width: 980px) {
+        width: 100%;
       }
     }
   }

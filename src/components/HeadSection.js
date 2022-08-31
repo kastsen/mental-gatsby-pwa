@@ -6,7 +6,7 @@ import SocialIcons from "./SocialIcons"
 
 const HeadSection =() => (
   <>
-    <iframe src="/rescue.html" frameBorder="0" width="50%" height="auto" className="demoGame"></iframe>
+
 
     <SectionLayout name="topSection">
 
@@ -20,6 +20,8 @@ const HeadSection =() => (
       <SocialIcons/>
 
     </SectionLayout>
+
+    <iframe src="/rescue.html" frameBorder="0" width="50%" height="auto" className="demoGame"></iframe>
   </>
 );
 
