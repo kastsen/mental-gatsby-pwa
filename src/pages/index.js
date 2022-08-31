@@ -8,7 +8,7 @@ import PortfolioWebsites from "../components/PortfolioWebsites"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='Progressive Apps for business'/>
+    <SEO title='Progressive Apps'/>
     <HeadSection/>
     <Portfolio title='Works'/>
     <PortfolioWebsites/>

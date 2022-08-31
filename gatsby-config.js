@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Kastenedev`,
-    description: `Progressive technologies for business.`,
+    title: `Yury Kastsen - Javascript Developer`,
+    description: `Progressive technologies.`,
     author: `@kastsen`,
   },
   plugins: [
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Kastenedev`,
-        short_name: `Kastenedev`,
+        name: `Yury Kastsen - Javascript Developer`,
+        short_name: `Yury Kastsen`,
         start_url: `/`,
         background_color: `#020111`,
         theme_color: `#020111`,
