@@ -1,11 +1,17 @@
 @import "../scss/_variables.scss";
 
 .portfolio {
-  //background: linear-gradient(#270036, $black);
-  background: url("../images/games-bg.png");
+  background: url("../images/games-bg.png") center center;
   background-size: cover;
   color: #fff;
   padding: 30px 0;
+  img, iframe {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  &.websites {
+    background: url("../images/games-bg-2.png") center center;
+    background-size: cover;
+  }
   h2 {
     width: 100%;
     margin-bottom: 20px;
@@ -24,6 +30,7 @@
     opacity: .9;
     &.subtitle {
       padding-bottom: 40px;
+      opacity: .8;
     }
   }
   .row {
@@ -53,6 +60,10 @@
       }
     }
   }
+  .websites-2 {
+    margin-top: -32px;
+    padding-bottom: 30px;
+  }
   .feature-icon {
     max-width: 80px;
     filter: invert(1);
@@ -73,12 +84,11 @@
       display: none;
     }
     .playable {
-      width: 46%;
+      width: 33.3%;
       iframe {
         min-height: 340px;
       }
     }
-
   }
 
   .tabNames {
@@ -100,14 +110,18 @@
     color: white;
     opacity: 1;
     font-size: 22px;
-    margin-bottom: 20px;
   }
   .reference {
-    font-size: 12px;
+    font-size: 16px;
+    opacity: .65;
     margin-bottom: 40px;
-    opacity: .5;
     a {
       color: $green;
     }
+  }
+
+  .content {
+    padding-bottom: 20px;
+    padding-top: 40px;
   }
 }

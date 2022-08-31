@@ -4,12 +4,14 @@ import SEO from "../components/seo"
 import Portfolio from "../components/Portfolio";
 import HeadSection from "../components/HeadSection";
 import Technologies from "../components/Technologies"
+import PortfolioWebsites from "../components/PortfolioWebsites"
 
 const IndexPage = () => (
   <Layout>
     <SEO title='Progressive Apps for business'/>
     <HeadSection/>
     <Portfolio title='Works'/>
+    <PortfolioWebsites/>
     <Technologies/>
   </Layout>
 )
