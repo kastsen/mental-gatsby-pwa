@@ -1,13 +1,16 @@
 import React from 'react';
 
 import './footer.scss'
+import { Link } from "gatsby"
 
 const Footer = () => {
     return (
       <footer>
         <ul className='textWhite'>
-          <li>© {new Date().getFullYear()} Mental Dev. All rights reserved</li>
+          <li>© {new Date().getFullYear()} <a href="/">YURY KASTSEN</a>. All rights reserved</li>
           <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/#portfolio">Works</a></li>
+          <li><Link to="/requestForm/">Contact</Link></li>
         </ul>
       </footer>
     )

@@ -5,6 +5,7 @@ import reactIcon from './../images/reactjs-ar21.svg'
 import pixiJsLogo from './../images/logo-pixi-js.svg'
 import tweenJsLogo from './../images/docs-icon-TweenJS.png'
 import matterJsLogo from './../images/marrerjslogo.svg'
+import gatsbyLogo from './../images/Gatsby-Logo.svg'
 
 import SectionLayout from "./sectionLayout";
 
@@ -21,11 +22,6 @@ const featuresData = [
     title: 'React JS',
     img: reactIcon
   },
-  // {
-  //   id: 'gatsbyJs',
-  //   title: 'gatsby js',
-  //   img: gatsbyLogo
-  // },
   {
     id: 'pixiJs',
     title: 'PIXI JS',
@@ -40,6 +36,11 @@ const featuresData = [
     id: 'matterJs',
     title: 'matter Js',
     img: matterJsLogo
+  },
+  {
+    id: 'gatsbyJs',
+    title: 'gatsby js',
+    img: gatsbyLogo
   },
 ];
 
