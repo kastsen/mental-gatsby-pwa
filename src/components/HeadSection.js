@@ -6,8 +6,6 @@ import SocialIcons from "./SocialIcons"
 
 const HeadSection =() => (
   <>
-
-
     <SectionLayout name="topSection">
 
       <div className="background"></div>
