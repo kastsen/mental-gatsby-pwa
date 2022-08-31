@@ -12,10 +12,13 @@
       opacity: 1;
     }
     &.linkedin {
-      left: $iconWidth + $iconWidth/2;
+      left: $iconWidth*1.5;
     }
     &.upwork {
       left: $iconWidth*3;
+    }
+    &.cv {
+      left: $iconWidth*4.5;
     }
   }
 }
