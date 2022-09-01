@@ -13,7 +13,7 @@ import React from "react"
 const PortfolioWebsites = () =>
   <SectionLayout name="portfolio bgBlack websites">
     <div className="text-center">
-      <img src={icon} alt='websites' loading='lazy' className='projectIcon' width="55" height='auto'/>
+      <img src={icon} alt='websites' loading='lazy' className='projectIcon' width="40" height='auto'/>
       <h3 className='text-center'>Websites</h3>
     </div>
     <p className='reference text-center'>
