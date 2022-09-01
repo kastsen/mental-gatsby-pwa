@@ -7,11 +7,15 @@ import bvImg from "../images/bv.jpg"
 import epImg from "../images/ep.png"
 import houseraImg from "../images/housera-screen-black.png"
 import glassImg from "../images/glass.jpg"
+import icon from '../images/setting.png'
 import React from "react"
 
 const PortfolioWebsites = () =>
   <SectionLayout name="portfolio bgBlack websites">
-    <h3 className='text-center'>Websites</h3>
+    <div className="text-center">
+      <img src={icon} alt='websites' loading='lazy' className='projectIcon' width="55" height='auto'/>
+      <h3 className='text-center'>Websites</h3>
+    </div>
     <p className='reference text-center'>
       A website works the way you want it to because<br/>
       the front and back ends of a website are always communicating.

@@ -16,6 +16,7 @@
     width: 100%;
     margin-bottom: 20px;
     line-height: 142%;
+    font-weight: 700;
     @media (max-width: $phone-landscape-max-width) {
       max-width: 320px;
       margin: 0 auto 50px;
@@ -126,7 +127,7 @@
     font-size: 22px;
   }
   .reference {
-    font-size: 16px;
+    font-size: 18px;
     opacity: .65;
     margin-bottom: 40px;
     a {
@@ -137,5 +138,8 @@
   .content {
     padding-bottom: 20px;
     padding-top: 40px;
+  }
+  .projectIcon {
+    margin-bottom: 16px;
   }
 }

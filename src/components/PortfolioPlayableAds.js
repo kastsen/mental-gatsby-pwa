@@ -1,10 +1,14 @@
 import React from "react"
+import icon from '../images/games.png'
 
 const PortfolioPlayableAds = () =>
   <>
-    <h3 className='text-center'>
-      Playable Ads
-    </h3>
+    <div className="text-center">
+      <img src={icon} alt='Playable Ads' loading='lazy' className='projectIcon' width="60" height='auto'/>
+      <h3>
+        Games & Playable Ads
+      </h3>
+    </div>
 
     <p className='reference text-center'>
       Playable ads are an interactive video game ad.<br/>

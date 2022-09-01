@@ -20,6 +20,9 @@ const HeadSection =() => (
     </SectionLayout>
 
     <iframe src="/rescue.html" frameBorder="0" width="50%" height="auto" className="demoGame"></iframe>
+    <div className="iframeReference">
+      Game art & concept by <a href="https://vizor-games.com/" rel="nofollow" target='_blank'>Vizor Games</a>
+    </div>
   </>
 );
 

@@ -18,6 +18,23 @@
   }
 }
 
+.iframeReference {
+  position: absolute;
+  right: 40px;
+  top: $displayHeight - 50px;
+  text-align: right;
+  color: $black;
+  font-size: 11px;
+  a {
+    font-weight: 700;
+  }
+  opacity: .4;
+  z-index: 2;
+  @media (max-width: 970px) {
+    display: none;
+  }
+}
+
 .topSection {
   height: $displayHeight;
   display: flex;
