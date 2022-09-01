@@ -8,13 +8,13 @@ $black: #11081f;
 $linkHover: #A6125E;
 $green: #33cdca;
 $join: #FD00A0;
-$colorDark: #93032f;
+$colorDark: $black;
 $darkPink: #310110;
 $footerBG: linear-gradient(194.49deg, $black -12.15%, $darkPink 98.41%);
 $linkHoverColor: $linkHover;
 $btnHover: $linkHover;
 $red: #93032f;
-$bgColor: linear-gradient(241.08deg, #080A0F 13.4%, $red 118.4%);
+$bgColor: linear-gradient(241.08deg, #080A0F 13.4%, $black 118.4%);
 
 //heights
 $sectionPadding: 40px;
