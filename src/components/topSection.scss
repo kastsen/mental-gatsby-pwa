@@ -10,6 +10,8 @@
   filter: grayscale(6%);
   transition: $transition;
   cursor: grab;
+  background: url("../images/iframe-preview-bg.png") center center no-repeat;
+  background-size: cover;
   &:hover {
     filter: grayscale(1%);
   }
