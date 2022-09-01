@@ -47,5 +47,17 @@
   }
   .technologiesList {
     margin-top: 30px;
+    justify-content: space-between;
+    @media (max-width: $phone-portrait-max-width) {
+      flex-wrap: wrap;
+      .item-flex {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        img {
+          width: 70px;
+        }
+      }
+    }
   }
 }

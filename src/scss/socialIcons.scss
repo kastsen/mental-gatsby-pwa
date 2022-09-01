@@ -20,5 +20,14 @@
     &.cv {
       left: $iconWidth*4.5;
     }
+    @media (max-width: 970px) {
+      position: relative;
+      left: 0;
+    }
+  }
+  @media (max-width: 970px) {
+    display: flex;
+    justify-content: center;
+    position: absolute;
   }
 }

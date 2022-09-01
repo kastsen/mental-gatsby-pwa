@@ -14,7 +14,7 @@
     filter: grayscale(1%);
   }
   @media (max-width: 970px) {
-    display: none;
+    width: 100%;
   }
 }
 
@@ -47,6 +47,31 @@
   margin-top: -120px;
   padding: 120px 0 120px;
   background: $black;
+  @media (max-width: 970px) {
+    z-index: 2;
+    background: none;
+    text-align: center;
+    margin-top: -120px;
+    &:after {
+      position: absolute;
+      width: 100%;
+      height: $displayHeight;
+      content: '';
+      left: 0;
+      top: 0;
+      background: $black;
+      opacity: .7;
+    }
+    .content {
+      .description {
+        p {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+      }
+    }
+  }
   * {
     z-index: 0;
     opacity: 0.95;
@@ -99,6 +124,19 @@
     }
     @media (max-width: $phone-portrait-max-width) {
       max-width: 100%;
+    }
+  }
+}
+
+main {
+  @media (max-width: 970px) {
+    position: relative;
+    margin-top: -160px;
+    padding-top: 120px;
+    z-index: 0;
+    .container {
+      position: relative;
+      z-index: 2;
     }
   }
 }

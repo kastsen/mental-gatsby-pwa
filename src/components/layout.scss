@@ -14,7 +14,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 365px;
+  min-width: 305px;
   filter: contrast(125%) brightness(85%) sepia(10%) grayscale(20%);
 }
 article,
@@ -682,4 +682,8 @@ ul {
 
 .invert {
   filter: invert(100%);
+}
+
+main {
+  max-width: 100%;
 }

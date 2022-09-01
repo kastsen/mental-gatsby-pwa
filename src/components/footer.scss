@@ -32,18 +32,14 @@ footer {
     }
     @media (max-width: 580px) {
       text-align: center;
-      &:nth-child(1) {
-        margin-bottom: 15px;
-      }
-      &:nth-child(2) {
-        display: none;
-      }
+      margin-bottom: 15px;
     }
+    border: 0 !important;
   }
   a {
     color: rgba(255, 255, 255, 0.8);
     &:hover {
-      color: $linkHoverColor;
+      color: $green;
     }
   }
 }
