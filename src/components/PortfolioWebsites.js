@@ -14,7 +14,7 @@ const PortfolioWebsites = () =>
   <SectionLayout name="portfolio bgBlack websites">
     <div className="text-center">
       <img src={icon} alt='websites' loading='lazy' className='projectIcon' width="40" height='auto'/>
-      <h3 className='text-center'>Websites</h3>
+      <h3 className='text-center'>Websites & Apps</h3>
     </div>
     <p className='reference text-center'>
       A website works the way you want it to because<br/>
