@@ -13,7 +13,7 @@ import React from "react"
 const PortfolioWebsites = () =>
   <SectionLayout name="portfolio bgBlack websites">
     <div className="text-center">
-      <img src={icon} alt='websites' loading='lazy' className='projectIcon' width="40" height='auto'/>
+      <img src={icon} alt='websites' loading='lazy' className='projectIcon' width="40" height='40'/>
       <h3 className='text-center'>Websites & Apps</h3>
     </div>
     <p className='reference text-center'>
@@ -22,31 +22,30 @@ const PortfolioWebsites = () =>
     </p>
     <div className="row projects websites active">
       <div className="col-lg-4">
-        <img src={kultprosvetImg} alt='kultprosvet' className='projectScreen' width="500" height='auto'/>
+        <img src={kultprosvetImg} loading='lazy' alt='kultprosvet' className='projectScreen' width="300" height='187'/>
       </div>
       <div className="col-lg-4">
-        <img src={kaptarunyImg} alt='kaptaruny' className='projectScreen' width="500" height='auto'/>
+        <img src={kaptarunyImg} loading='lazy' alt='kaptaruny' className='projectScreen' width="300" height='187'/>
       </div>
       <div className="col-lg-4">
-        <img src={bambooImg} alt='bamboo' className='projectScreen' width="500" height='auto'/>
+        <img src={bambooImg} loading='lazy' alt='bamboo' className='projectScreen' width="300" height='187'/>
       </div>
       <div className="col-lg-4">
-        <img src={nivelImg} alt='nivel' className='projectScreen' width="500" height='auto'/>
+        <img src={nivelImg} loading='lazy' alt='nivel' className='projectScreen' width="300" height='187'/>
       </div>
     </div>
     <div className="row projects websites active websites-2">
       <div className="col-lg-4">
-        <img src={bvImg} loading='lazy' alt='beauty village' className='projectScreen' width="500" height='auto'/>
+        <img src={bvImg} loading='lazy' alt='beauty village' className='projectScreen' width="300" height='187'/>
       </div>
       <div className="col-lg-4">
-        <img src={epImg} loading='lazy' alt='easy projects' className='projectScreen' width="500" height='auto'/>
+        <img src={epImg} loading='lazy' alt='easy projects' className='projectScreen' width="300" height='187'/>
       </div>
       <div className="col-lg-4">
-        <img src={houseraImg} loading='lazy' alt='housera' className='projectScreen' width="500" height='auto'/>
+        <img src={houseraImg} loading='lazy' alt='housera' className='projectScreen' width="300" height='187'/>
       </div>
-
       <div className="col-lg-4">
-        <img src={glassImg} loading='lazy' alt='glass factory NY' className='projectScreen' width="500" height='auto'/>
+        <img src={glassImg} loading='lazy' alt='glass factory NY' className='projectScreen' width="300" height='187'/>
       </div>
     </div>
   </SectionLayout>
