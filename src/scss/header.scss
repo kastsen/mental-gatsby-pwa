@@ -1,4 +1,4 @@
-@import "./../scss/_variables.scss";
+@import "variables";
 
 header {
   font-weight: 500;
@@ -27,4 +27,4 @@ header {
   }
 }
 
-@import "../scss/logo";
+@import "logo";

@@ -9,7 +9,7 @@ import gatsbyLogo from './../images/Gatsby-Logo.svg'
 
 import SectionLayout from "./sectionLayout";
 
-import './technologies.scss';
+import '../scss/technologies.scss';
 
 const featuresData = [
   {

@@ -1,6 +1,6 @@
 import React from "react"
 
-import './pwaReliable.scss'
+import '../scss/pwaReliable.scss'
 
 import SectionLayout from "./sectionLayout";
 

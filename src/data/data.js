@@ -3,10 +3,6 @@ import developmentIcon from './../images/rocket-ship.svg';
 import transformationIcon from './../images/solar-system.svg';
 
 export const data = {
-  headSection: {
-    title: 'Use technologies for business',
-    description: 'Progressive apps help increase conversions and royalties.'
-  },
   features: [
     {
       id: 'conceptAndStrategy',

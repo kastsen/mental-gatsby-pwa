@@ -1,5 +1,5 @@
 import React from 'react';
-import './features.scss'
+import '../scss/features.scss'
 import SectionLayout from './sectionLayout';
 import { IconsItems } from './IconsItems';
 

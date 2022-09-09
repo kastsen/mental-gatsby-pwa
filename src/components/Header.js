@@ -1,8 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import './header.scss'
-import './headerNav.scss'
+import '../scss/header.scss'
+import '../scss/headerNav.scss'
 
 import Nav from "./nav"
 

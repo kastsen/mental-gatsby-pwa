@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SectionLayout from "../components/sectionLayout"
 
-import './singlePage.scss';
+import '../scss/singlePage.scss';
 
 const PrivacyPage = () => (
   <div id="single-page">

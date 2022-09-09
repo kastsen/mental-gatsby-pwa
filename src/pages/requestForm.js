@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
-import './modalWindow.scss'
+import '../scss/modalWindow.scss'
 import GetStartedForm from "../components/Form"
 import '../scss/ui.scss'
 
@@ -21,7 +21,7 @@ const ModalExamplePage = () => (
           ) : (<></>)}
           <h2>Contact Us</h2>
           <GetStartedForm/>
-          <a href="/"><span className='closeIcon'></span></a>
+          <a href="/"><span className='closeIcon'>x</span></a>
         </div>
       )}
     </ModalRoutingContext.Consumer>

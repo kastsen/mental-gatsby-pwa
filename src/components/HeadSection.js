@@ -1,6 +1,6 @@
 import React from "react"
 import SectionLayout from "./sectionLayout";
-import './topSection.scss'
+import '../scss/topSection.scss'
 import GetStartedBtn from "./GetStartedBtn"
 import SocialIcons from "./SocialIcons"
 
@@ -19,9 +19,17 @@ const HeadSection =() => (
 
     </SectionLayout>
 
-    <iframe src="/rescue.html" frameBorder="0" width="50%" height="auto" className="demoGame"></iframe>
+    <iframe
+      src="/rescue.html"
+      frameBorder="0"
+      width="50%"
+      height="auto"
+      className="demoGame"
+      title="rescue chute"
+    ></iframe>
+
     <div className="iframeReference">
-      Game art & concept by <a href="https://vizor-games.com/" rel="nofollow" target='_blank'>Vizor Games</a>
+      Game art & concept by <a href="https://vizor-games.com/" target='_blank' rel="noreferrer">Vizor Games</a>
     </div>
   </>
 );

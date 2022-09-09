@@ -1,5 +1,5 @@
 import React from 'react';
-import './portfolio.scss'
+import '../scss/portfolio.scss'
 import SectionLayout from './sectionLayout';
 import PortfolioPlayableAds from "./PortfolioPlayableAds"
 
