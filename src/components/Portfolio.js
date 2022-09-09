@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 import '../scss/portfolio.scss'
 
-import SectionLayout from './sectionLayout';
+import SectionLayout from './sectionLayout'
 import PortfolioPlayableAds from "./PortfolioPlayableAds"
 
 const Portfolio = ({ title}) =>
@@ -18,6 +18,5 @@ const Portfolio = ({ title}) =>
         <PortfolioPlayableAds/>
 
     </SectionLayout>
-;
 
-export default Portfolio;
+export default Portfolio

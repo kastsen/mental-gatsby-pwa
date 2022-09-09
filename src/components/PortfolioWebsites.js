@@ -1,4 +1,7 @@
+import React from "react"
+
 import SectionLayout from "./sectionLayout"
+
 import kultprosvetImg from "../images/kultprosvet.jpg"
 import kaptarunyImg from "../images/kaptaruny.jpg"
 import nivelImg from "../images/nivel.jpg"
@@ -8,7 +11,6 @@ import epImg from "../images/ep.png"
 import houseraImg from "../images/housera-screen-black.png"
 import glassImg from "../images/glass.jpg"
 import icon from '../images/setting.png'
-import React from "react"
 
 const PortfolioWebsites = () =>
   <SectionLayout name="portfolio bgBlack websites">
@@ -49,6 +51,5 @@ const PortfolioWebsites = () =>
       </div>
     </div>
   </SectionLayout>
-;
 
 export default PortfolioWebsites;

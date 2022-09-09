@@ -19,15 +19,13 @@
       left: $iconWidth*3;
     }
     &.instagram {
-      left: $iconWidth*4.5;
-      bottom: $iconMarginBottom + 1px;
+      left: $iconWidth*4.7;
     }
     &.cv {
-      left: $iconWidth*5.9;
-      bottom: $iconMarginBottom - 2px;
+      left: $iconWidth*6.25;
     }
     &.mail {
-      left: $iconWidth*7.4;
+      left: $iconWidth*7.8;
       max-width: $iconWidth*0.72;
     }
     @media (max-width: 970px) {

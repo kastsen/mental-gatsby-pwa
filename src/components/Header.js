@@ -18,7 +18,6 @@ const Header = () => (
                 <Link to="/"></Link>
             </div>
             <Nav/>
-            {/*<GetStartedBtn/>*/}
         </div>
     </header>
 );

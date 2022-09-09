@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 import nodejsIcon from './../images/nodejs-ar21.svg'
 import reactIcon from './../images/reactjs-ar21.svg'
@@ -7,9 +7,9 @@ import tweenJsLogo from './../images/docs-icon-TweenJS.png'
 import matterJsLogo from './../images/marrerjslogo.svg'
 import gatsbyLogo from './../images/Gatsby-Logo.svg'
 
-import SectionLayout from "./sectionLayout";
+import SectionLayout from "./sectionLayout"
 
-import '../scss/technologies.scss';
+import '../scss/technologies.scss'
 
 const featuresData = [
   {
@@ -42,7 +42,7 @@ const featuresData = [
     title: 'gatsby js',
     img: gatsbyLogo
   },
-];
+]
 
 const createItems = (data) => {
   const items = data.map((item) => {
@@ -52,8 +52,8 @@ const createItems = (data) => {
         </div>
       )
     }
-  );
-  return items;
+  )
+  return items
 }
 
 const Technologies = () =>
@@ -64,6 +64,5 @@ const Technologies = () =>
       </div>
     </SectionLayout>
   </div>
-;
 
 export default Technologies;

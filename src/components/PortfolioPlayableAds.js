@@ -27,6 +27,5 @@ const PortfolioPlayableAds = () =>
       </div>
     </div>
   </>
-;
 
 export default PortfolioPlayableAds;

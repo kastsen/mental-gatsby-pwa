@@ -32,6 +32,6 @@ const HeadSection =() => (
       Game art & concept by <a href="https://vizor-games.com/" target='_blank' rel="noreferrer">Vizor Games</a>
     </div>
   </>
-);
+)
 
 export default HeadSection

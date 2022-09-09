@@ -12,6 +12,6 @@ export const IconsItems = (data, className) => {
         </div>
       )
     }
-  );
+  )
   return items;
 }

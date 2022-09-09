@@ -20,6 +20,6 @@ const PwaReliable =() => (
           </div>
       </div>
   </SectionLayout>
-);
+)
 
 export default PwaReliable

@@ -1,7 +1,9 @@
-import React from 'react';
+import React from 'react'
+
 import '../scss/features.scss'
-import SectionLayout from './sectionLayout';
-import { IconsItems } from './IconsItems';
+
+import SectionLayout from './sectionLayout'
+import { IconsItems } from './IconsItems'
 
 const Features = ({ title, data }) =>
     <SectionLayout name="features text-center bgBlack">
@@ -10,6 +12,5 @@ const Features = ({ title, data }) =>
             {IconsItems(data, 'col-lg-4')}
         </div>
     </SectionLayout>
-;
 
-export default Features;
+export default Features
