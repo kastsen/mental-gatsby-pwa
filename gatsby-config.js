@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Yury Kastsen - Javascript Developer`,
-    description: `Progressive technologies.`,
+    description: `Developer & Speaker who builds high-performance tools, products, apps and games.`,
     author: `@kastsen`,
   },
   plugins: [
