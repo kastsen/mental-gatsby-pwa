@@ -2,12 +2,13 @@
 
 .socialIcons {
   $iconWidth: 35px;
+  $iconMarginBottom: -130px;
   .social-icon {
     position: absolute;
     left: 0;
-    bottom: -130px;
+    bottom: $iconMarginBottom;
     max-width: $iconWidth;
-    opacity: .8;
+    opacity: .6;
     &:hover {
       opacity: 1;
     }
@@ -17,8 +18,17 @@
     &.upwork {
       left: $iconWidth*3;
     }
-    &.cv {
+    &.instagram {
       left: $iconWidth*4.5;
+      bottom: $iconMarginBottom + 1px;
+    }
+    &.cv {
+      left: $iconWidth*5.9;
+      bottom: $iconMarginBottom - 2px;
+    }
+    &.mail {
+      left: $iconWidth*7.4;
+      max-width: $iconWidth*0.72;
     }
     @media (max-width: 970px) {
       position: relative;
