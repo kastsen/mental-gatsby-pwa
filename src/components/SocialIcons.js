@@ -6,7 +6,6 @@ import gitIcon from "../images/github.png"
 import linkedinIcon from "../images/linkedin.png"
 import upworkIcon from "../images/upwork.svg"
 import cvIcon from "../images/cv.png"
-import mailIcon from '../images/free-icon-close-note-70308.png'
 import instaIcon from '../images/free-icon-instagram-2111491.png'
 
 const SocialIcons =() => (
@@ -22,13 +21,10 @@ const SocialIcons =() => (
         <img src={upworkIcon} alt='upwork' loading='lazy' className='social-icon invert upwork' width="30" height='30'/>
       </a>
       <a href="https://www.instagram.com/sp_kava/" target="_blank" rel="noreferrer">
-        <img src={instaIcon} alt='instagram' loading='lazy' className='social-icon invert instagram' width="27" height='27'/>
+        <img src={instaIcon} alt='instagram' loading='lazy' className='social-icon invert instagram' width="25" height='25'/>
       </a>
       <a href="/Yury-Kastsen-CV.pdf" target="_blank" rel="noreferrer">
         <img src={cvIcon} alt='download cv' loading='lazy' className='social-icon invert cv' width="30" height='30'/>
-      </a>
-      <a href="mailto:kastenedev@gmail.com" target="_blank" rel="noreferrer">
-        <img src={mailIcon} alt='send mail' loading='lazy' className='social-icon invert mail' width="30" height='30'/>
       </a>
     </div>
   </>
