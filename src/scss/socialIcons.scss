@@ -1,41 +1,24 @@
 @import "./../scss/_variables.scss";
 
 .socialIcons {
-  $iconWidth: 35px;
-  $iconMarginBottom: -130px;
+  position: absolute;
+  display: flex;
+  bottom: -130px;
+  align-items: center;
   .social-icon {
-    position: absolute;
     left: 0;
-    bottom: $iconMarginBottom;
-    max-width: $iconWidth;
+    max-width: 35px;
     opacity: .6;
+    margin-right: 21px;
     &:hover {
       opacity: 1;
     }
-    &.linkedin {
-      left: $iconWidth*1.5;
-    }
-    &.upwork {
-      left: $iconWidth*3;
-    }
-    &.instagram {
-      left: $iconWidth*4.7;
-    }
-    &.cv {
-      left: $iconWidth*6.25;
-    }
-    &.mail {
-      left: $iconWidth*7.8;
-      max-width: $iconWidth*0.72;
-    }
-    @media (max-width: 970px) {
-      position: relative;
-      left: 0;
-    }
   }
   @media (max-width: 970px) {
-    display: flex;
     justify-content: center;
-    position: absolute;
+    width: 100%;
+    .social-icon {
+      margin: 0 11px;
+    }
   }
 }
