@@ -105,6 +105,7 @@
       width: 33.3%;
       iframe {
         min-height: 340px;
+        max-width: 100%;
         @media (max-width: 440px) {
           min-height: 380px;
         }
