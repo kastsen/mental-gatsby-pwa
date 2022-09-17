@@ -19,8 +19,8 @@ const PortfolioApps = () =>
       <h3 className='text-center'>Websites & Apps</h3>
     </div>
     <p className='reference text-center'>
-      A website works the way you want it to because<br/>
-      the front and back ends of a website are always communicating.
+      Web app or website works the way you want it to because<br/>
+      the front and back ends are always communicating.
     </p>
     <div className="row projects websites active">
       <div className="col-lg-4">
