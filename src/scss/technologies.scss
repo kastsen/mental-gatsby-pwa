@@ -2,8 +2,9 @@
 
 .technologies {
   color: $black;
+  background: #fff;
   img {
-    width: 140px;
+    width: 110px;
     filter: grayscale(5%);
     transition: $transition;
     @media (max-width: $phone-portrait-max-width) {
