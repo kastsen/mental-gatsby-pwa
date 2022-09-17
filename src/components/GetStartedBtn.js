@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from 'gatsby'
-import '../scss/getStartedBtn.scss'
+import '../scss/btn.scss'
 
 const GetStartedBtn = () => (
   <Link to="/requestForm/">
