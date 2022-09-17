@@ -1,7 +1,7 @@
 import React from "react"
 import icon from '../images/games.png'
 
-const PortfolioPlayableAds = () =>
+const PortfolioGames = () =>
   <>
     <div className="text-center">
       <img src={icon} alt='Playable Ads' loading='lazy' className='projectIcon' width="46" height='auto'/>
@@ -28,4 +28,4 @@ const PortfolioPlayableAds = () =>
     </div>
   </>
 
-export default PortfolioPlayableAds;
+export default PortfolioGames;

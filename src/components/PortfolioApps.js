@@ -4,7 +4,7 @@ import SectionLayout from "./sectionLayout"
 
 import kultprosvetImg from "../images/kultprosvet.jpg"
 import kaptarunyImg from "../images/kaptaruny.jpg"
-import nivelImg from "../images/nivel.jpg"
+import themcardsImg from "../images/themcards.png"
 import bambooImg from "../images/bamboo.png"
 import bvImg from "../images/bv.jpg"
 import epImg from "../images/ep.png"
@@ -12,7 +12,7 @@ import houseraImg from "../images/housera-screen-black.png"
 import glassImg from "../images/glass.jpg"
 import icon from '../images/setting.png'
 
-const PortfolioWebsites = () =>
+const PortfolioApps = () =>
   <SectionLayout name="portfolio bgBlack websites">
     <div className="text-center">
       <img src={icon} alt='websites' loading='lazy' className='projectIcon' width="40" height='40'/>
@@ -33,7 +33,7 @@ const PortfolioWebsites = () =>
         <img src={bambooImg} loading='lazy' alt='bamboo' className='projectScreen' width="300" height='187'/>
       </div>
       <div className="col-lg-4">
-        <img src={nivelImg} loading='lazy' alt='nivel' className='projectScreen' width="300" height='187'/>
+        <img src={themcardsImg} loading='lazy' alt='nivel' className='projectScreen' width="300" height='187'/>
       </div>
     </div>
     <div className="row projects websites active websites-2">
@@ -52,4 +52,4 @@ const PortfolioWebsites = () =>
     </div>
   </SectionLayout>
 
-export default PortfolioWebsites;
+export default PortfolioApps;
