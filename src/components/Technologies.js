@@ -16,7 +16,7 @@ const featuresData = [
   {
     id: 'nodejs',
     title: 'Node JS',
-    img: nodejsIconб
+    img: nodejsIcon,
     width: '110',
     height: '55'
   },
