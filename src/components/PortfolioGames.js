@@ -4,7 +4,7 @@ import icon from '../images/games.png'
 const PortfolioGames = () =>
   <>
     <div className="text-center">
-      <img src={icon} alt='Playable Ads' loading='lazy' className='projectIcon' width="46" height='auto'/>
+      <img src={icon} alt='Playable Ads' loading='lazy' className='projectIcon' width="46" height='46'/>
       <h3>
         Games & Playable Ads
       </h3>
