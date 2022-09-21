@@ -16,37 +16,51 @@ const featuresData = [
   {
     id: 'nodejs',
     title: 'Node JS',
-    img: nodejsIcon
+    img: nodejsIconб
+    width: '110',
+    height: '55'
   },
   {
     id: 'pixiJs',
     title: 'PIXI JS',
-    img: pixiJsLogo
+    img: pixiJsLogo,
+    width: '110',
+    height: '38'
   },
   {
     id: 'threejs',
     title: 'Three JS',
-    img: threejsLogo
+    img: threejsLogo,
+    width: '110',
+    height: '55'
   },
   {
     id: 'tweenJs',
     title: 'tween Js',
-    img: tweenJsLogo
+    img: tweenJsLogo,
+    width: '110',
+    height: '24'
   },
   {
     id: 'matterJs',
     title: 'matter Js',
-    img: matterJsLogo
+    img: matterJsLogo,
+    width: '110',
+    height: '21'
   },
   {
     id: 'reactJs',
     title: 'React JS',
-    img: reactIcon
+    img: reactIcon,
+    width: '110',
+    height: '55'
   },
   {
     id: 'gatsbyJs',
     title: 'gatsby js',
-    img: gatsbyLogo
+    img: gatsbyLogo,
+    width: '110',
+    height: '29'
   },
 ]
 
@@ -54,7 +68,7 @@ const createItems = (data) => {
   const items = data.map((item) => {
       return (
         <div key={item.id} className='item-flex'>
-            <img src={item.img} loading='lazy' alt={item.title} className='feature-icon' width="120"/>
+            <img src={item.img} loading='lazy' alt={item.title} className='feature-icon' width={item.width} height={item.height}/>
         </div>
       )
     }
