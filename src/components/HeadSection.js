@@ -11,7 +11,7 @@ const HeadSection =() => (
       <div className="background"></div>
       <h1>Yury Kastsen</h1>
       <div className='description'>
-        <p>Developer & Speaker who builds high-performance tools, products, apps and games.</p>
+        <p>High-performance tools, products, apps & <br/>games development.</p>
       </div>
 
       <GetStartedBtn/>

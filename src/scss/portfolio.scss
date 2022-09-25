@@ -115,6 +115,7 @@
         display: none;
         &:nth-child(3) {
           display: flex;
+          justify-content: center;
         }
       }
     }
