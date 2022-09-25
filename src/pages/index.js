@@ -2,13 +2,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Portfolio from "../components/Portfolio";
-import HeadSection from "../components/HeadSection";
+import Main from "../components/Main";
 import Technologies from "../components/Technologies"
 
 const IndexPage = () => (
   <Layout>
     <SEO title='Progressive Apps'/>
-    <HeadSection/>
+    <Main/>
     <Portfolio title='Works'/>
     <Technologies/>
   </Layout>
