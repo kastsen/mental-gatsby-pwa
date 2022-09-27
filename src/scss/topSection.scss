@@ -3,7 +3,8 @@
 .demoGame {
   position: absolute;
   width: 50%;
-  height: $displayHeight;
+  height: 100vh;
+  min-height: $displayHeight;
   right: 0;
   top: 0;
   z-index: 1;
@@ -38,7 +39,8 @@
 }
 
 .topSection {
-  height: $displayHeight;
+  height: 100vh;
+  min-height: $displayHeight;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -58,7 +60,8 @@
     &:after {
       position: absolute;
       width: 100%;
-      height: $displayHeight;
+      height: 100vh;
+      min-height: $displayHeight;
       content: '';
       left: 0;
       top: 0;
