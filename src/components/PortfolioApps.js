@@ -1,7 +1,5 @@
 import React from "react"
-
 import SectionLayout from "./sectionLayout"
-
 import kultprosvetImg from "../images/kultprosvet.jpg"
 import kaptarunyImg from "../images/kaptaruny.jpg"
 import themcardsImg from "../images/themcards.png"
@@ -24,24 +22,34 @@ const PortfolioApps = () =>
     </p>
     <div className="row projects websites active">
       <div className="col-lg-4">
-        <img src={kultprosvetImg} loading='lazy' alt='kultprosvet' className='projectScreen' width="300" height='187'/>
+          <a href="https://web.archive.org/web/20211020164846/http://kultprosvet.by/" rel='nofollow' target='_blank'>
+              <img src={kultprosvetImg} loading='lazy' alt='kultprosvet' className='projectScreen' width="300" height='187'/>
+          </a>
       </div>
       <div className="col-lg-4">
-        <img src={kaptarunyImg} loading='lazy' alt='kaptaruny' className='projectScreen' width="300" height='187'/>
+          <a href="http://kaptaruny.com/en/" target='_blank' rel='nofollow'>
+              <img src={kaptarunyImg} loading='lazy' alt='kaptaruny' className='projectScreen' width="300" height='187'/>
+          </a>
       </div>
       <div className="col-lg-4">
-        <img src={bambooImg} loading='lazy' alt='bamboo' className='projectScreen' width="300" height='187'/>
+          <a href="https://bambooapps.eu/" target='_blank' rel='nofollow'>
+              <img src={bambooImg} loading='lazy' alt='bamboo' className='projectScreen' width="300" height='187'/>
+          </a>
       </div>
       <div className="col-lg-4">
-        <img src={themcardsImg} loading='lazy' alt='nivel' className='projectScreen' width="300" height='187'/>
+          <img src={themcardsImg} loading='lazy' alt='nivel' className='projectScreen' width="300" height='187'/>
       </div>
     </div>
     <div className="row projects websites active websites-2">
       <div className="col-lg-4">
-        <img src={bvImg} loading='lazy' alt='beauty village' className='projectScreen' width="300" height='187'/>
+          <a href="https://beauty-village.de/" target='_blank' rel='nofollow'>
+              <img src={bvImg} loading='lazy' alt='beauty village' className='projectScreen' width="300" height='187'/>
+          </a>
       </div>
       <div className="col-lg-4">
-        <img src={epImg} loading='lazy' alt='easy projects' className='projectScreen' width="300" height='187'/>
+          <a href="https://www.easyprojects.net/" target='_blank' rel='nofollow'>
+              <img src={epImg} loading='lazy' alt='easy projects' className='projectScreen' width="300" height='187'/>
+          </a>
       </div>
       <div className="col-lg-4">
         <img src={houseraImg} loading='lazy' alt='housera' className='projectScreen' width="300" height='187'/>
