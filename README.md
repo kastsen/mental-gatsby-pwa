@@ -1,6 +1,6 @@
-<h1>Gatsby's PWA</h1>
+<h1>Mental</h1>
 
-PWA demo - GO! - https://mental.gatsbyjs.io
+Gatsby's PWA - https://mental.gatsbyjs.io
 
 ## Quick start
 
