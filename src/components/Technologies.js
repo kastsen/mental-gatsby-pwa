@@ -7,6 +7,7 @@ import tweenJsLogo from './../images/docs-icon-TweenJS.png'
 import matterJsLogo from './../images/marrerjslogo.svg'
 import gatsbyLogo from './../images/Gatsby-Logo.svg'
 import threejsLogo from './../images/threeJS.png'
+import reduxLogo from './../images/redux-logo.png'
 
 import SectionLayout from "./sectionLayout"
 
@@ -35,18 +36,25 @@ const featuresData = [
     height: '55'
   },
   {
-    id: 'tweenJs',
-    title: 'tween Js',
-    img: tweenJsLogo,
-    width: '110',
-    height: '24'
-  },
-  {
     id: 'matterJs',
     title: 'matter Js',
     img: matterJsLogo,
     width: '110',
     height: '21'
+  },
+  {
+    id: 'tweenJs',
+    title: 'tween js',
+    img: tweenJsLogo,
+    width: '110',
+    height: '23'
+  },
+  {
+    id: 'redux',
+    title: 'redux',
+    img: reduxLogo,
+    width: '110',
+    height: '30'
   },
   {
     id: 'reactJs',

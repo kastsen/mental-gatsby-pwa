@@ -3,8 +3,12 @@
 .technologies {
   color: $black;
   background: #fff;
+  .container {
+    max-width: 1420px;
+  }
   img {
-    width: 110px;
+    width: 100px;
+    height: auto;
     filter: grayscale(5%);
     transition: $transition;
     @media (max-width: $phone-portrait-max-width) {

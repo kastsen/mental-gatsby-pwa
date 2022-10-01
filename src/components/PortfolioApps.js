@@ -1,5 +1,6 @@
 import React from "react"
 import SectionLayout from "./sectionLayout"
+
 import kultprosvetImg from "../images/kultprosvet.jpg"
 import kaptarunyImg from "../images/kaptaruny.jpg"
 import themcardsImg from "../images/themcards.png"
