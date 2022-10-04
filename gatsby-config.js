@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Yury Kastsen - Javascript Developer`,
-    description: `Developer & Speaker who builds high-performance tools, products, apps and games.`,
+    title: `Mental`,
+    description: `High-performance tools, products, apps and games.`,
     author: `@kastsen`,
   },
   plugins: [
@@ -46,8 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Yury Kastsen - Javascript Developer`,
-        short_name: `Yury Kastsen`,
+        name: `Mental`,
+        short_name: `Mental`,
         start_url: `/`,
         background_color: `#020111`,
         theme_color: `#020111`,
