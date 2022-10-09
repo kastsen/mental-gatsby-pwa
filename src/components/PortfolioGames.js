@@ -11,7 +11,6 @@ const PortfolioGames = () =>
     </div>
 
     <p className='reference text-center'>
-      Playable ads are an interactive video game ad.<br/>
       Art & concept by <a href="https://vizor-games.com/" target='_blank' rel="noreferrer">Vizor Games</a>
     </p>
 
