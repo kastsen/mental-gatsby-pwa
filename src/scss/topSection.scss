@@ -8,14 +8,10 @@
   right: 0;
   top: 0;
   z-index: 1;
-  filter: grayscale(6%);
   transition: $transition;
   cursor: grab;
   background: url("../images/iframe-preview-bg.png") center center no-repeat;
   background-size: cover;
-  &:hover {
-    filter: grayscale(1%);
-  }
   @media (max-width: 970px) {
     width: 100%;
   }
