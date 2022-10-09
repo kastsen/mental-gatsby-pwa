@@ -23,17 +23,17 @@ const PortfolioApps = () =>
     </p>
     <div className="row projects websites active">
       <div className="col-lg-4">
-          <a href="https://web.archive.org/web/20211020164846/http://kultprosvet.by/" rel='nofollow' target='_blank'>
+          <a href="https://web.archive.org/web/20211020164846/http://kultprosvet.by/" rel='noreferrer' target='_blank'>
               <img src={kultprosvetImg} loading='lazy' alt='kultprosvet' className='projectScreen' width="300" height='187'/>
           </a>
       </div>
       <div className="col-lg-4">
-          <a href="http://kaptaruny.com/en/" target='_blank' rel='nofollow'>
+          <a href="http://kaptaruny.com/en/" target='_blank' rel='noreferrer'>
               <img src={kaptarunyImg} loading='lazy' alt='kaptaruny' className='projectScreen' width="300" height='187'/>
           </a>
       </div>
       <div className="col-lg-4">
-          <a href="https://bambooapps.eu/" target='_blank' rel='nofollow'>
+          <a href="https://bambooapps.eu/" target='_blank' rel='noreferrer'>
               <img src={bambooImg} loading='lazy' alt='bamboo' className='projectScreen' width="300" height='187'/>
           </a>
       </div>
@@ -43,12 +43,12 @@ const PortfolioApps = () =>
     </div>
     <div className="row projects websites active websites-2">
       <div className="col-lg-4">
-          <a href="https://beauty-village.de/" target='_blank' rel='nofollow'>
+          <a href="https://beauty-village.de/" target='_blank' rel='noreferrer'>
               <img src={bvImg} loading='lazy' alt='beauty village' className='projectScreen' width="300" height='187'/>
           </a>
       </div>
       <div className="col-lg-4">
-          <a href="https://www.easyprojects.net/" target='_blank' rel='nofollow'>
+          <a href="https://www.easyprojects.net/" target='_blank' rel='noreferrer'>
               <img src={epImg} loading='lazy' alt='easy projects' className='projectScreen' width="300" height='187'/>
           </a>
       </div>
