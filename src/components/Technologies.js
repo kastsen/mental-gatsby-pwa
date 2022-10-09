@@ -18,28 +18,28 @@ const featuresData = [
     id: 'nodejs',
     title: 'Node JS',
     img: nodejsIcon,
-    width: '110',
-    height: '55'
+    width: '90',
+    height: '45'
   },
   {
     id: 'pixiJs',
     title: 'PIXI JS',
     img: pixiJsLogo,
-    width: '110',
+    width: '95',
     height: '38'
   },
   {
     id: 'threejs',
     title: 'Three JS',
     img: threejsLogo,
-    width: '110',
+    width: '90',
     height: '55'
   },
   {
     id: 'matterJs',
     title: 'matter Js',
     img: matterJsLogo,
-    width: '110',
+    width: '100',
     height: '21'
   },
   {
@@ -53,21 +53,21 @@ const featuresData = [
     id: 'redux',
     title: 'redux',
     img: reduxLogo,
-    width: '110',
+    width: '90',
     height: '30'
   },
   {
     id: 'reactJs',
     title: 'React JS',
     img: reactIcon,
-    width: '110',
+    width: '104',
     height: '55'
   },
   {
     id: 'gatsbyJs',
     title: 'gatsby js',
     img: gatsbyLogo,
-    width: '110',
+    width: '95',
     height: '29'
   },
 ]
