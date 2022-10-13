@@ -13,7 +13,7 @@ const Portfolio = ({ title}) =>
             <div className='text-center'>
                 <h2 id='portfolio'>{title}</h2>
                 <p className='subtitle'>
-                    From interaction design to scaleable design systems, single-page apps to something more experimental with WebGL. For clients around the globe. A selection of recent projects I have worked on.
+                    From interaction design to scaleable design systems, single-page apps to something more experimental with WebGL. For clients around the globe. <br/>A selection of recent projects I have worked on.
                 </p>
             </div>
 
