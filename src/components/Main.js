@@ -11,7 +11,7 @@ const Main =() => (
       <div className="background"></div>
       <h1>Yury Kastsen</h1>
       <div className='description'>
-        <p>High-performance tools, products, apps & <br/>games development</p>
+        <p>High-performance tools, products, apps & <br/>games development. I'm the kind of person who isn't afraid of challenges.</p>
       </div>
 
       <GetStartedBtn/>
