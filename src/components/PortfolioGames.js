@@ -10,19 +10,16 @@ const PortfolioGames = () =>
       </h3>
     </div>
 
-    <p className='reference text-center'>
+    <p className='reference text-center copyright'>
       Art & concept by <a href="https://vizor-games.com/" target='_blank' rel="noreferrer">Vizor Games</a>
     </p>
 
     <div className="row projects playableAds active">
       <div className="playable">
-        <iframe src="/p979.html" loading='lazy' frameBorder="0" width="400" height="420" title="angry sheep"></iframe>
+        <iframe src="/p1664.html" loading='lazy' frameBorder="0" width="600" height="420" title="angry sheep"></iframe>
       </div>
       <div className="playable">
-        <iframe src="/p1825.html" loading='lazy' frameBorder="0" width="400" height="420" title="brainteaser"></iframe>
-      </div>
-      <div className="playable">
-        <iframe src="/p1664.html" loading='lazy' frameBorder="0" width="400" height="420" title="the sheep is saved"></iframe>
+        <iframe src="/p1825.html" loading='lazy' frameBorder="0" width="600" height="420" title="brainteaser"></iframe>
       </div>
     </div>
   </>

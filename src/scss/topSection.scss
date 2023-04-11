@@ -10,8 +10,6 @@
   z-index: 1;
   transition: $transition;
   cursor: grab;
-  background: url("../images/iframe-preview-bg.png") center center no-repeat;
-  background-size: cover;
   @media (max-width: 970px) {
     width: 100%;
   }

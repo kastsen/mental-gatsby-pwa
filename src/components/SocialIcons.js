@@ -17,13 +17,10 @@ const SocialIcons =() => (
       <a href="https://www.linkedin.com/in/kastsen/" target="_blank" rel="noreferrer">
         <img src={linkedinIcon} alt='linkedin' loading='lazy' className='social-icon invert linkedin' width="30" height='30'/>
       </a>
-      <a href="https://www.upwork.com/freelancers/~01ffc76279a8057a44" target="_blank" rel="noreferrer">
-        <img src={upworkIcon} alt='upwork' loading='lazy' className='social-icon invert upwork' width="30" height='30'/>
-      </a>
       <a href="https://www.instagram.com/sp_kava/" target="_blank" rel="noreferrer">
         <img src={instaIcon} alt='instagram' loading='lazy' className='social-icon invert instagram' width="25" height='25'/>
       </a>
-      <a href="/Yury-Kastsen-CV.pdf" target="_blank" rel="noreferrer">
+      <a href="/Yury-Kastsen-JS-Typescript-HTML5-Developer.pdf" target="_blank" rel="noreferrer">
         <img src={cvIcon} alt='download cv' loading='lazy' className='social-icon invert cv' width="30" height='30'/>
       </a>
     </div>
