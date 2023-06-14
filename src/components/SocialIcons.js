@@ -1,10 +1,7 @@
 import React from "react"
-
 import '../scss/socialIcons.scss'
-
 import gitIcon from "../images/github.png"
 import linkedinIcon from "../images/linkedin.png"
-import upworkIcon from "../images/upwork.svg"
 import cvIcon from "../images/cv.png"
 import instaIcon from '../images/free-icon-instagram-2111491.png'
 
