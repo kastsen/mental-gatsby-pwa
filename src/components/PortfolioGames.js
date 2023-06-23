@@ -11,20 +11,20 @@ const PortfolioGames = () =>
         Games & Playable Ads
 			</h3>
 		</div>
-
-		<p className='reference text-center copyright'>
-      Art & concept by <a href="https://vizor-games.com/" target='_blank' rel="noreferrer">Vizor Games</a>
-		</p>
-
 		<div className="row projects playableAds active">
 			<div className="playable">
-				<a href={'/p1664.html'}>
-					<img src={screenshotSheep} loading='lazy' width="600" title="angry sheep" alt={'angry sheep playable vizor games'}></img>
+				<a href={'/save-the-sheep-playavle-ads/'}>
+					<img src={screenshotSheep} loading='lazy' width="600"
+							 title="Save the sheep - playable ads. Art & concept by Vizor Games."
+							 alt={'Save the sheep - playable ads. Art & concept by Vizor Games.'}>
+					</img>
 				</a>
 			</div>
 			<div className="playable">
-				<a href={'/p1825.html'}>
-					<img src={screenshotCactus} loading='lazy' width="600" title="brainteaser" alt={'cactus playable vizor games'}></img>
+				<a href={'/only-forward-playable-ads/'}>
+					<img src={screenshotCactus} loading='lazy' width="600"
+							 title="Only forward - playable ads. Art & concept by Vizor Games."
+							 alt={'Only forward - playable ads. Art & concept by Vizor Games.'}></img>
 				</a>
 			</div>
 		</div>
